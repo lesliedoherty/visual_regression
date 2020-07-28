@@ -5,6 +5,7 @@ A node application running [BackstopJS](https://github.com/garris/BackstopJS).
 Backstop uses headless Chrome for testing. Assuming you have an up-to-date version of Chrome installed, you should be good to go.
 
 ```bash
+$ cd /path/to/tableau-visual-regression
 $ nvm use
 $ yarn install
 ```
@@ -18,12 +19,7 @@ brew cask install chromedriver
 
 ## Usage ##
 
-```bash
-$ cd /path/to/tableau-visual-regression
-$ nvm use
-```
-
-Once you've run the above commands, you can run a test using the following commands:
+Once you've run the above initialization commands, you can run a test using the following commands:
 
 ```bash
 $ yarn test -p local // runs tests on local domain using scenarios.json
