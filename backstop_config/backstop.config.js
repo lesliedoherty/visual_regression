@@ -21,10 +21,10 @@ module.exports = options => {
     ],
     scenarios: options.scenarios,
     paths: {
-      bitmaps_reference: './../backstop_data/bitmaps_reference',
-      bitmaps_test: './../backstop_data/bitmaps_test',
-      html_report: './../backstop_data/html_report',
-      ci_report: './../backstop_data/ci_report'
+      bitmaps_reference: 'backstop_data/bitmaps_reference',
+      bitmaps_test: 'backstop_data/bitmaps_test',
+      html_report: 'backstop_data/html_report',
+      ci_report: 'backstop_data/ci_report'
     },
     engine: 'puppeteer',
     engineOptions: {

@@ -1,7 +1,7 @@
 #! /usr/bin/env node --no-warnings
 const args = require('yargs').argv
 const backstop = require('backstopjs')
-const { LOCAL } = require('./lib/environments')
+const { LOCAL } = require('./backstop_config/environments')
 const scenario = require('./backstop_config/urls/demo')
 
 // Need project from args (production, local, test, sandbox, mutlidev)

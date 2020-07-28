@@ -8,6 +8,7 @@ const PRODUCTION = {
   siteUrl: 'https://www.tableau.com'
 }
 
+// Todo move to environment variable
 const LOCAL = {
   siteUrl: 'http://tableauwww.test'
 }
