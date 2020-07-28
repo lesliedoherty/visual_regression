@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Learn",
+    "url": "learn"
+  },
+  {
+    "label": "Solutions",
+    "url": "solutions"
+  },
+  {
+    "label": "Live Training",
+    "url": "learn/live-training"
+  },
+  {
+    "label": "Whitepapers",
+    "url": "learn/whitepapers"
+  }
+]
