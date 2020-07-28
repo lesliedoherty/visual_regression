@@ -25,6 +25,13 @@ Once you've run the above initialization commands, you can run a test using the 
 $ yarn test -p local // runs tests on local domain using scenarios.json
 ```
 
+```bash
+Coming up: 
+-p flag for other environments
+test vs openReport vs reference workflow
+approve workflow 
+```
+
 ### In Progress
 Currently working on the following:
 - Pass environment through CI and capture in app.js.
@@ -55,9 +62,11 @@ Backstop is using the `report: ['browser', 'CI'],` config, which returns a JSON 
 
 
 ## Test results ##
-Test results are saved in the `/backstop_dat/bitmaps_test` directory. Each set of results is grouped in a timestamped directory. Individual test files are named using the path of the URL.
+Test results are saved in the `/backstop_data/bitmaps_test` directory. Each set of results is grouped in a timestamped directory. Individual test files are named using the path of the URL.
 
-#### Troubleshooting
+Visual results are found in the `/backstop_data/html_report` folder. It also will be launched automatically at the end of the test.
+
+## Troubleshooting ##
 
 **Error**: Mismatch error for Chromedriver and Chrome Browser Version:
 
