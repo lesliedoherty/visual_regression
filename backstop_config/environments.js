@@ -15,7 +15,7 @@ const PRODUCTION = {
 
 const LOCAL = {
   name: 'local',
-  siteUrl: process.env.LOCAL
+  siteUrl: process.env.VR_LOCAL
 }
 
 module.exports = exports = { PRODUCTION, STAGING, LOCAL }
