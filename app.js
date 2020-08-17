@@ -1,15 +1,16 @@
 #! /usr/bin/env node --no-warnings
 const args = require('yargs').argv
 const backstop = require('backstopjs')
-const { LOCAL } = require('./backstop_config/environments')
 const scenario = require('./backstop_config/urls/demo')
-
-// Need project from args (production, local, test, sandbox, mutlidev)
-// Use command to require based on arg value of project
-
+const { LOCAL, STAGING } = require('./backstop_config/environments')
+// Use the argument for test and reference if set.
+// Default is testing local object and referencing staging object.
+const TEST = args.test ? { name: 'override test', siteUrl: args.test } : LOCAL
+const REFERENCE = args.reference ? { name: 'override reference', siteUrl: args.reference } : STAGING
+const PROJECT_ID = args.projectID ? args.projectID + '_regression' : TEST + '_regression'
 const projectConfig = require('./backstop_config/backstop.config.js')({
-  project: args.p,
-  scenarios: getScenariosForProject(LOCAL)
+  project: PROJECT_ID,
+  scenarios: getScenariosForProject(TEST)
 })
 
 let commandToRun = ''
@@ -26,20 +27,21 @@ if (args.openReport) {
   commandToRun = 'openReport'
 }
 
+if (args.approve) {
+  commandToRun = 'approve'
+}
+
 if (commandToRun !== '') {
   backstop(commandToRun, { config: projectConfig })
 }
 
 function getScenariosForProject ({ siteUrl }) {
   const scenarios = scenario.map(({ label, url }) => {
-    console.log(url)
     return {
       label: label,
-      url: `${siteUrl}/${url}`
+      url: `${siteUrl}/${url}`,
+      referenceUrl: `${REFERENCE}/${url}`
     }
   })
-
   return scenarios
 }
-
-// module.exports = exports = { getScenariosForProject: getScenariosForProject, commandToRun }
