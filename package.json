@@ -8,7 +8,8 @@
     "test": "node app.js --test",
     "openReport": "node app.js --openReport",
     "approve": "node app.js --approve",
-    "reference": "node app.js --reference"
+    "reference": "node app.js --reference",
+    "single": "node lib/single.js"
   },
   "keywords": [
     "visual_regression",
