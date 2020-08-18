@@ -12,10 +12,13 @@ $ yarn install
 
 ## Prerequisits
 
-1.  ChromeDriver installed and added to the $PATH
+- ChromeDriver installed and added to the $PATH
+
 ```bash
 brew cask install chromedriver
 ```
+
+- Set your local vairables in `.env`
 
 ## Usage ##
 
@@ -25,16 +28,48 @@ Once you've run the above initialization commands, you can run a test using the 
 $ yarn test -p local // runs tests on local domain using scenarios.json
 ```
 
-```bash
-Coming up: 
--p flag for other environments
-test vs openReport vs reference workflow
-approve workflow 
-```
+### Running a test on a single URL from the command line
 
-### In Progress
+Note: Running a test on a single URL requires you to pass the entire URL. This differs from other batch tests where we set the environment domain and not the full URL.
+
+**Command:**
+
+`yarn single` is the command that runs the `/lib/single.js` app with the default backstop configuration.
+
+**Options:**
+
+`--singleUrl` Url to be tested. *Required*
+
+ `--referenceUrl` Url to create the reference from. Use with action `--reference`
+
+`--label` Label applied to URL. *Optional.* 
+
+**Actions:**
+
+`--test` Run a test on the `singleUrl`.
+
+`--reference` Create a reference from the `referenceUrl`.
+
+`--approve` Approve and set as new reference.
+
+**Examples:**
+
+```bash
+yarn single --reference --singleUrl http://myurltotest.com --referenceUrl http://referenceurl.com
+yarn single --test --singleUrl http://myurltotest.com --referenceUrl http://referenceurl.com
+yarn single --approve --singleUrl https://dev-tableau-www.pantheonsite.io/products/desktop
+yarn single --test --singleUrl https://dev-tableau-www.pantheonsite.io/products/desktop
+```
+### In Progress 
+
+Default: local vs staging
+
+Migration: staging vs prod
+
+CircleCI: branch vs stagingD8/prodD8
+
+### Tasks
 Currently working on the following:
-- Pass environment through CI and capture in app.js.
 - Allow argument for scenarios. Ex: paragraph, content-type, custom, etc.
 - Decide level of granularity for urls (ex: paragraphs - only test the dom for the paragraph main area)
 - Implement scenarios and very reference works against a base.

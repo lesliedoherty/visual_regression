@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Teasers And Feature Highlights",
+    "url": "__test__/paragraph-qa-teasers-and-highlights",
+    "selectors": [
+      ".paragraph--type--feature-highlight",
+      ".paragraph paragraph--type--teaser-items"
+    ],
+    "selectorExpansion": true,
+    "scrollToSelector": ".global-footer__first"
+  }
+]

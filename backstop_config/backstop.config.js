@@ -4,16 +4,6 @@ module.exports = options => {
     misMatchThreshold: 0.5,
     viewports: [
       {
-        name: 'phone',
-        width: 320,
-        height: 480
-      },
-      {
-        name: 'tablet_v',
-        width: 568,
-        height: 1024
-      },
-      {
         name: 'tablet_h',
         width: 1024,
         height: 768
