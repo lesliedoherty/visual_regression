@@ -1,506 +1,506 @@
 [
   {
     "label": "www.tableau.com",
-    "url": "https://www.tableau.com/"
+    "url": ""
   },
   {
     "label": "about",
-    "url": "https://www.tableau.com/about"
+    "url": "about"
   },
   {
     "label": "awards-and-recognition",
-    "url": "https://www.tableau.com/about/awards-and-recognition"
+    "url": "about/awards-and-recognition"
   },
   {
     "label": "blog",
-    "url": "https://www.tableau.com/about/blog"
+    "url": "about/blog"
   },
   {
     "label": "visualizing-all-protests-and-political-unrest-us-summer",
-    "url": "https://www.tableau.com/about/blog/2020/8/visualizing-all-protests-and-political-unrest-us-summer"
+    "url": "about/blog/2020/8/visualizing-all-protests-and-political-unrest-us-summer"
   },
   {
     "label": "contact",
-    "url": "https://www.tableau.com/about/contact"
+    "url": "about/contact"
   },
   {
     "label": "customer-service",
-    "url": "https://www.tableau.com/about/contact/customer-service"
+    "url": "about/contact/customer-service"
   },
   {
     "label": "global-offices",
-    "url": "https://www.tableau.com/about/contact/global-offices"
+    "url": "about/contact/global-offices"
   },
   {
     "label": "global-sales",
-    "url": "https://www.tableau.com/about/contact/global-sales"
+    "url": "about/contact/global-sales"
   },
   {
     "label": "leadership",
-    "url": "https://www.tableau.com/about/leadership"
+    "url": "about/leadership"
   },
   {
     "label": "mission",
-    "url": "https://www.tableau.com/about/mission"
+    "url": "about/mission"
   },
   {
     "label": "newsroom",
-    "url": "https://www.tableau.com/about/newsroom"
+    "url": "about/newsroom"
   },
   {
     "label": "PaymentOptions",
-    "url": "https://www.tableau.com/about/PaymentOptions"
+    "url": "about/PaymentOptions"
   },
   {
     "label": "academic",
-    "url": "https://www.tableau.com/academic"
+    "url": "academic"
   },
   {
     "label": "united-nations",
-    "url": "https://www.tableau.com/account/united-nations"
+    "url": "account/united-nations"
   },
   {
     "label": "community",
-    "url": "https://www.tableau.com/community"
+    "url": "community"
   },
   {
     "label": "community-request-speaker",
-    "url": "https://www.tableau.com/community-request-speaker"
+    "url": "community-request-speaker"
   },
   {
     "label": "events",
-    "url": "https://www.tableau.com/community/events"
+    "url": "community/events"
   },
   {
     "label": "compare",
-    "url": "https://www.tableau.com/compare"
+    "url": "compare"
   },
   {
     "label": "data-culture",
-    "url": "https://www.tableau.com/data-culture"
+    "url": "data-culture"
   },
   {
     "label": "data-for-kids",
-    "url": "https://www.tableau.com/data-for-kids"
+    "url": "data-for-kids"
   },
   {
     "label": "data-sets-students",
-    "url": "https://www.tableau.com/data-sets-students"
+    "url": "data-sets-students"
   },
   {
     "label": "data-storytelling",
-    "url": "https://www.tableau.com/data-storytelling"
+    "url": "data-storytelling"
   },
   {
     "label": "developer",
-    "url": "https://www.tableau.com/developer"
+    "url": "developer"
   },
   {
     "label": "dreamforce",
-    "url": "https://www.tableau.com/dreamforce"
+    "url": "dreamforce"
   },
   {
     "label": "embedded-analytics",
-    "url": "https://www.tableau.com/embedded-analytics"
+    "url": "embedded-analytics"
   },
   {
     "label": "enterprise-IT",
-    "url": "https://www.tableau.com/enterprise-IT"
+    "url": "enterprise-IT"
   },
   {
     "label": "foundation",
-    "url": "https://www.tableau.com/foundation"
+    "url": "foundation"
   },
   {
     "label": "home",
-    "url": "https://www.tableau.com/home"
+    "url": "home"
   },
   {
     "label": "iron-viz",
-    "url": "https://www.tableau.com/iron-viz"
+    "url": "iron-viz"
   },
   {
     "label": "leading-through-change",
-    "url": "https://www.tableau.com/leading-through-change"
+    "url": "leading-through-change"
   },
   {
     "label": "learn",
-    "url": "https://www.tableau.com/learn"
+    "url": "learn"
   },
   {
     "label": "articles",
-    "url": "https://www.tableau.com/learn/articles"
+    "url": "learn/articles"
   },
   {
     "label": "certification",
-    "url": "https://www.tableau.com/learn/certification"
+    "url": "learn/certification"
   },
   {
     "label": "classroom",
-    "url": "https://www.tableau.com/learn/classroom"
+    "url": "learn/classroom"
   },
   {
     "label": "data-viz-debate",
-    "url": "https://www.tableau.com/learn/data-viz-debate"
+    "url": "learn/data-viz-debate"
   },
   {
     "label": "live-training",
-    "url": "https://www.tableau.com/learn/live-training"
+    "url": "learn/live-training"
   },
   {
     "label": "training",
-    "url": "https://www.tableau.com/learn/training"
+    "url": "learn/training"
   },
   {
     "label": "welcome-tableau-server-trial",
-    "url": "https://www.tableau.com/learn/welcome-tableau-server-trial"
+    "url": "learn/welcome-tableau-server-trial"
   },
   {
     "label": "whitepapers",
-    "url": "https://www.tableau.com/learn/whitepapers"
+    "url": "learn/whitepapers"
   },
   {
     "label": "legal",
-    "url": "https://www.tableau.com/legal"
+    "url": "legal"
   },
   {
     "label": "cookies",
-    "url": "https://www.tableau.com/legal/cookies"
+    "url": "legal/cookies"
   },
   {
     "label": "regional-privacy-laws",
-    "url": "https://www.tableau.com/legal/regional-privacy-laws"
+    "url": "legal/regional-privacy-laws"
   },
   {
     "label": "metrics",
-    "url": "https://www.tableau.com/metrics"
+    "url": "metrics"
   },
   {
     "label": "modern-bi",
-    "url": "https://www.tableau.com/modern-bi"
+    "url": "modern-bi"
   },
   {
     "label": "partners",
-    "url": "https://www.tableau.com/partners"
+    "url": "partners"
   },
   {
     "label": "embedded",
-    "url": "https://www.tableau.com/pricing/embedded"
+    "url": "pricing/embedded"
   },
   {
     "label": "how-to-decide",
-    "url": "https://www.tableau.com/pricing/how-to-decide"
+    "url": "pricing/how-to-decide"
   },
   {
     "label": "individual",
-    "url": "https://www.tableau.com/pricing/individual"
+    "url": "pricing/individual"
   },
   {
     "label": "teams-orgs",
-    "url": "https://www.tableau.com/pricing/teams-orgs"
+    "url": "pricing/teams-orgs"
   },
   {
     "label": "privacy",
-    "url": "https://www.tableau.com/privacy"
+    "url": "privacy"
   },
   {
     "label": "products",
-    "url": "https://www.tableau.com/products"
+    "url": "products"
   },
   {
     "label": "accessibility",
-    "url": "https://www.tableau.com/products/accessibility"
+    "url": "products/accessibility"
   },
   {
     "label": "catalog",
-    "url": "https://www.tableau.com/products/add-ons/catalog"
+    "url": "products/add-ons/catalog"
   },
   {
     "label": "data-management",
-    "url": "https://www.tableau.com/products/add-ons/data-management"
+    "url": "products/add-ons/data-management"
   },
   {
     "label": "catalog-request",
-    "url": "https://www.tableau.com/products/add-ons/data-management/catalog-request"
+    "url": "products/add-ons/data-management/catalog-request"
   },
   {
     "label": "request-limited-release",
-    "url": "https://www.tableau.com/products/add-ons/data-management/request-limited-release"
+    "url": "products/add-ons/data-management/request-limited-release"
   },
   {
     "label": "server-management",
-    "url": "https://www.tableau.com/products/add-ons/server-management"
+    "url": "products/add-ons/server-management"
   },
   {
     "label": "all-features",
-    "url": "https://www.tableau.com/products/all-features"
+    "url": "products/all-features"
   },
   {
     "label": "buy-more",
-    "url": "https://www.tableau.com/products/buy-more"
+    "url": "products/buy-more"
   },
   {
     "label": "cloud-bi",
-    "url": "https://www.tableau.com/products/cloud-bi"
+    "url": "products/cloud-bi"
   },
   {
     "label": "coming-soon",
-    "url": "https://www.tableau.com/products/coming-soon"
+    "url": "products/coming-soon"
   },
   {
     "label": "desktop",
-    "url": "https://www.tableau.com/products/desktop"
+    "url": "products/desktop"
   },
   {
     "label": "download",
-    "url": "https://www.tableau.com/products/desktop/download"
+    "url": "products/desktop/download"
   },
   {
     "label": "individuals",
-    "url": "https://www.tableau.com/products/individuals"
+    "url": "products/individuals"
   },
   {
     "label": "linux",
-    "url": "https://www.tableau.com/products/linux"
+    "url": "products/linux"
   },
   {
     "label": "mobile",
-    "url": "https://www.tableau.com/products/mobile"
+    "url": "products/mobile"
   },
   {
     "label": "new-features",
-    "url": "https://www.tableau.com/products/new-features"
+    "url": "products/new-features"
   },
   {
     "label": "demo",
-    "url": "https://www.tableau.com/products/new-features/ask-data/demo"
+    "url": "products/new-features/ask-data/demo"
   },
   {
     "label": "desktop",
-    "url": "https://www.tableau.com/products/new-features/desktop"
+    "url": "products/new-features/desktop"
   },
   {
     "label": "explain-data",
-    "url": "https://www.tableau.com/products/new-features/explain-data"
+    "url": "products/new-features/explain-data"
   },
   {
     "label": "hyper",
-    "url": "https://www.tableau.com/products/new-features/hyper"
+    "url": "products/new-features/hyper"
   },
   {
     "label": "online",
-    "url": "https://www.tableau.com/products/new-features/online"
+    "url": "products/new-features/online"
   },
   {
     "label": "prep",
-    "url": "https://www.tableau.com/products/new-features/prep"
+    "url": "products/new-features/prep"
   },
   {
     "label": "server",
-    "url": "https://www.tableau.com/products/new-features/server"
+    "url": "products/new-features/server"
   },
   {
     "label": "request-trial",
-    "url": "https://www.tableau.com/products/online/request-trial"
+    "url": "products/online/request-trial"
   },
   {
     "label": "prep",
-    "url": "https://www.tableau.com/products/prep"
+    "url": "products/prep"
   },
   {
     "label": "download",
-    "url": "https://www.tableau.com/products/prep/download"
+    "url": "products/prep/download"
   },
   {
     "label": "reader",
-    "url": "https://www.tableau.com/products/reader"
+    "url": "products/reader"
   },
   {
     "label": "server",
-    "url": "https://www.tableau.com/products/server"
+    "url": "products/server"
   },
   {
     "label": "teams-organizations",
-    "url": "https://www.tableau.com/products/teams-organizations"
+    "url": "products/teams-organizations"
   },
   {
     "label": "techspecs",
-    "url": "https://www.tableau.com/products/techspecs"
+    "url": "products/techspecs"
   },
   {
     "label": "viewer",
-    "url": "https://www.tableau.com/products/viewer"
+    "url": "products/viewer"
   },
   {
     "label": "viewer-vs-reader",
-    "url": "https://www.tableau.com/products/viewer-vs-reader"
+    "url": "products/viewer-vs-reader"
   },
   {
     "label": "what-is-tableau",
-    "url": "https://www.tableau.com/products/what-is-tableau"
+    "url": "products/what-is-tableau"
   },
   {
     "label": "renewing-your-licenses-tableau-partners",
-    "url": "https://www.tableau.com/renewing-your-licenses-tableau-partners"
+    "url": "renewing-your-licenses-tableau-partners"
   },
   {
     "label": "reopen-with-tableau",
-    "url": "https://www.tableau.com/reopen-with-tableau"
+    "url": "reopen-with-tableau"
   },
   {
     "label": "security",
-    "url": "https://www.tableau.com/security"
+    "url": "security"
   },
   {
     "label": "smart-approach",
-    "url": "https://www.tableau.com/smart-approach"
+    "url": "smart-approach"
   },
   {
     "label": "snowflake-cloud-monitoring",
-    "url": "https://www.tableau.com/snowflake-cloud-monitoring"
+    "url": "snowflake-cloud-monitoring"
   },
   {
     "label": "analytics",
-    "url": "https://www.tableau.com/solutions/analytics"
+    "url": "solutions/analytics"
   },
   {
     "label": "solutions",
-    "url": "https://www.tableau.com/solutions"
+    "url": "solutions"
   },
   {
     "label": "webinars-emea",
-    "url": "https://www.tableau.com/solutions/webinars-emea"
+    "url": "solutions/webinars-emea"
   },
   {
     "label": "support",
-    "url": "https://www.tableau.com/support"
+    "url": "support"
   },
   {
     "label": "desktop",
-    "url": "https://www.tableau.com/support/desktop"
+    "url": "support/desktop"
   },
   {
     "label": "mobile",
-    "url": "https://www.tableau.com/support/mobile"
+    "url": "support/mobile"
   },
   {
     "label": "online",
-    "url": "https://www.tableau.com/support/online"
+    "url": "support/online"
   },
   {
     "label": "online-upgrade",
-    "url": "https://www.tableau.com/support/online-upgrade"
+    "url": "support/online-upgrade"
   },
   {
     "label": "prep",
-    "url": "https://www.tableau.com/support/prep"
+    "url": "support/prep"
   },
   {
     "label": "prep-upgrade",
-    "url": "https://www.tableau.com/support/prep-upgrade"
+    "url": "support/prep-upgrade"
   },
   {
     "label": "public",
-    "url": "https://www.tableau.com/support/public"
+    "url": "support/public"
   },
   {
     "label": "reader",
-    "url": "https://www.tableau.com/support/reader"
+    "url": "support/reader"
   },
   {
     "label": "releases",
-    "url": "https://www.tableau.com/support/releases"
+    "url": "support/releases"
   },
   {
     "label": "bridge",
-    "url": "https://www.tableau.com/support/releases/bridge"
+    "url": "support/releases/bridge"
   },
   {
     "label": "2020.1",
-    "url": "https://www.tableau.com/support/releases/data-management-add-on/2020.1"
+    "url": "support/releases/data-management-add-on/2020.1"
   },
   {
     "label": "2020.3",
-    "url": "https://www.tableau.com/support/releases/desktop/2020.3"
+    "url": "support/releases/desktop/2020.3"
   },
   {
     "label": "0.0.11249",
-    "url": "https://www.tableau.com/support/releases/hyper-api/0.0.11249"
+    "url": "support/releases/hyper-api/0.0.11249"
   },
   {
     "label": "mobile",
-    "url": "https://www.tableau.com/support/releases/mobile"
+    "url": "support/releases/mobile"
   },
   {
     "label": "2020.708.4057",
-    "url": "https://www.tableau.com/support/releases/mobile/2020.708.4057"
+    "url": "support/releases/mobile/2020.708.4057"
   },
   {
     "label": "online",
-    "url": "https://www.tableau.com/support/releases/online"
+    "url": "support/releases/online"
   },
   {
     "label": "10.3",
-    "url": "https://www.tableau.com/support/releases/online/10.3"
+    "url": "support/releases/online/10.3"
   },
   {
     "label": "prep",
-    "url": "https://www.tableau.com/support/releases/prep"
+    "url": "support/releases/prep"
   },
   {
     "label": "2020.3.1",
-    "url": "https://www.tableau.com/support/releases/prep/2020.3.1"
+    "url": "support/releases/prep/2020.3.1"
   },
   {
     "label": "server",
-    "url": "https://www.tableau.com/support/releases/server"
+    "url": "support/releases/server"
   },
   {
     "label": "2020.3",
-    "url": "https://www.tableau.com/support/releases/server/2020.3"
+    "url": "support/releases/server/2020.3"
   },
   {
     "label": "renew",
-    "url": "https://www.tableau.com/support/renew"
+    "url": "support/renew"
   },
   {
     "label": "server",
-    "url": "https://www.tableau.com/support/server"
+    "url": "support/server"
   },
   {
     "label": "server-upgrade",
-    "url": "https://www.tableau.com/support/server-upgrade"
+    "url": "support/server-upgrade"
   },
   {
     "label": "services",
-    "url": "https://www.tableau.com/support/services"
+    "url": "support/services"
   },
   {
     "label": "upgrade-assistance",
-    "url": "https://www.tableau.com/support/upgrade-assistance"
+    "url": "support/upgrade-assistance"
   },
   {
     "label": "tableau-for-executives",
-    "url": "https://www.tableau.com/tableau-for-executives"
+    "url": "tableau-for-executives"
   },
   {
     "label": "tableau-salesforce-analytics",
-    "url": "https://www.tableau.com/tableau-salesforce-analytics"
+    "url": "tableau-salesforce-analytics"
   },
   {
     "label": "tableau-technology-partners",
-    "url": "https://www.tableau.com/tableau-technology-partners"
+    "url": "tableau-technology-partners"
   },
   {
     "label": "tableau-virtual-event-code-conduct",
-    "url": "https://www.tableau.com/tableau-virtual-event-code-conduct"
+    "url": "tableau-virtual-event-code-conduct"
   },
   {
     "label": "tos",
-    "url": "https://www.tableau.com/tos"
+    "url": "tos"
   },
   {
     "label": "zen-masters",
-    "url": "https://www.tableau.com/zen-masters"
+    "url": "zen-masters"
   }
 ]

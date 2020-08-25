@@ -2,13 +2,7 @@ module.exports = options => {
   return {
     id: `${options.project}_test`,
     misMatchThreshold: 0.5,
-    viewports: [
-      {
-        name: 'tablet_h',
-        width: 1024,
-        height: 768
-      }
-    ],
+    viewports: options.viewport,
     scenarios: options.scenarios,
     paths: {
       bitmaps_reference: 'backstop_data/bitmaps_reference',
