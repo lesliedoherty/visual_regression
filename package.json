@@ -10,7 +10,7 @@
     "approve": "node app.js --approve",
     "reference": "node app.js --reference",
     "single": "node lib/single.js",
-    "migration": "node lib/migration.js"
+    "migration": "node lib/migration.js --projectID migration"
   },
   "keywords": [
     "visual_regression",
