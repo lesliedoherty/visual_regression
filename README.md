@@ -18,14 +18,37 @@ $ yarn install
 brew cask install chromedriver
 ```
 
+## Environment
 - Set your local vairables in `.env`
+(See .env-example to rename and replace values)
 
 ## Usage ##
 
-Once you've run the above initialization commands, you can run a test using the following commands:
+Once you've run the above initialization commands, you can run a test using the following command:
 
 ```bash
-$ yarn test -p local // runs tests on local domain using scenarios.json
+$ yarn migration --reference
+$ yarn migration --test
+$ yarn migration --approve
+```
+### Options
+`--testEnv` Sets the test domain. If nothing is passed, the default is the local url set in your .env file
+
+`--referenceEnv` Sets the reference domain. If nothing is passed, the default STAGING url in `.env`
+
+`--projectID` Sets the name of the project id. Default is `{ TEST }_regression`.
+
+### Example migration test
+*NOTE* Migration URLs do not include header and footer. Those are run separately to prevent unneeded noise.
+
+```bash
+# Set a reference from D7
+yarn migration --reference --referenceEnv https://www.tableau.com --testEnv https://mkt-review-tableau-www.pantheonsite.io
+```
+
+```bash
+# Run a test from mkt-review compared to D7
+yarn migration --test --referenceEnv https://www.tableau.com --testEnv https://mkt-review-tableau-www.pantheonsite.io
 ```
 
 ### Running a test on a single URL from the command line
