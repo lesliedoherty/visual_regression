@@ -19,9 +19,22 @@
   ],
   "author": "Leslie Doherty <ldoherty@tableau.com>",
   "license": "ISC",
+  "_moduleAliases": {
+    "@root": ".",
+    "@config": "backstop_config",
+    "@scenario": "backstop_config/scenario",
+    "@lib": "lib",
+    "@data": "backstop_data",
+    "@html_report": "backstop_data/html_report",
+    "@ci_report": "backstop_data/ci_report",
+    "@engine_scripts": "backstop_data/engine_scripts",
+    "@bitmap_reference": "backstop_data/bitmap_reference",
+    "@bitmap_test": "backstop_data/bitmap_test"
+  },
   "dependencies": {
     "backstopjs": "^5.0.1",
     "date-format": "^2.1.0",
+    "module-alias": "^2.2.2",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },
   "devDependencies": {

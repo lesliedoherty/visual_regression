@@ -1,6 +1,7 @@
 #! /usr/bin/env node --no-warnings
+require('module-alias/register')
 const args = require('yargs').argv
-const { TEST, REFERENCE, PROJECT_ID } = require('./backstop_config/global')
+const { TEST, REFERENCE, PROJECT_ID } = require('@config/global')
 console.log('⭐️️  Running test for ' + PROJECT_ID)
 console.log('⭐️  Testing environment ' + TEST.siteUrl)
 console.log('⭐️  Reference environment ' + REFERENCE.siteUrl)
