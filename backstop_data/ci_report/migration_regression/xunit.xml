@@ -233,9 +233,9 @@
       <failure message="Design deviation ›› server-management (document) component"/>
       <error message="Design deviation ›› server-management (document) component"/>
     </testcase>
-    <testcase classname="document" name=" ›› all-features">
-      <failure message="Design deviation ›› all-features (document) component"/>
-      <error message="Design deviation ›› all-features (document) component"/>
+    <testcase classname="" name=" ›› all-features">
+      <failure message="Design deviation ›› all-features () component"/>
+      <error message="Design deviation ›› all-features () component"/>
     </testcase>
     <testcase classname="document" name=" ›› buy-more">
       <failure message="Design deviation ›› buy-more (document) component"/>
@@ -477,25 +477,25 @@
       <failure message="Design deviation ›› services (document) component"/>
       <error message="Design deviation ›› services (document) component"/>
     </testcase>
-    <testcase classname="document" name=" ›› upgrade-assistance">
-      <failure message="Design deviation ›› upgrade-assistance (document) component"/>
-      <error message="Design deviation ›› upgrade-assistance (document) component"/>
+    <testcase classname="" name=" ›› upgrade-assistance">
+      <failure message="Design deviation ›› upgrade-assistance () component"/>
+      <error message="Design deviation ›› upgrade-assistance () component"/>
     </testcase>
-    <testcase classname="document" name=" ›› tableau-for-executives">
-      <failure message="Design deviation ›› tableau-for-executives (document) component"/>
-      <error message="Design deviation ›› tableau-for-executives (document) component"/>
+    <testcase classname="" name=" ›› tableau-for-executives">
+      <failure message="Design deviation ›› tableau-for-executives () component"/>
+      <error message="Design deviation ›› tableau-for-executives () component"/>
     </testcase>
-    <testcase classname="document" name=" ›› tableau-salesforce-analytics">
-      <failure message="Design deviation ›› tableau-salesforce-analytics (document) component"/>
-      <error message="Design deviation ›› tableau-salesforce-analytics (document) component"/>
+    <testcase classname="" name=" ›› tableau-salesforce-analytics">
+      <failure message="Design deviation ›› tableau-salesforce-analytics () component"/>
+      <error message="Design deviation ›› tableau-salesforce-analytics () component"/>
     </testcase>
-    <testcase classname="document" name=" ›› tableau-technology-partners">
-      <failure message="Design deviation ›› tableau-technology-partners (document) component"/>
-      <error message="Design deviation ›› tableau-technology-partners (document) component"/>
+    <testcase classname="" name=" ›› tableau-technology-partners">
+      <failure message="Design deviation ›› tableau-technology-partners () component"/>
+      <error message="Design deviation ›› tableau-technology-partners () component"/>
     </testcase>
-    <testcase classname="document" name=" ›› tableau-virtual-event-code-conduct">
-      <failure message="Design deviation ›› tableau-virtual-event-code-conduct (document) component"/>
-      <error message="Design deviation ›› tableau-virtual-event-code-conduct (document) component"/>
+    <testcase classname="" name=" ›› tableau-virtual-event-code-conduct">
+      <failure message="Design deviation ›› tableau-virtual-event-code-conduct () component"/>
+      <error message="Design deviation ›› tableau-virtual-event-code-conduct () component"/>
     </testcase>
     <testcase classname="document" name=" ›› tos">
       <failure message="Design deviation ›› tos (document) component"/>
