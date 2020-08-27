@@ -1,7 +1,12 @@
 [
   {
     "label": "www.tableau.com",
-    "url": ""
+    "url": "",
+    "extend": {
+      "removeSelectors": [
+        ".random-single__item"
+      ]
+    }
   },
   {
     "label": "about",

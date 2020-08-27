@@ -64,14 +64,13 @@ yarn single --test --singleUrl https://dev-tableau-www.pantheonsite.io/products/
 
 Default: local vs staging
 
-Migration: staging vs prod
+Migration: prod vs mkt-review
 
 CircleCI: branch vs stagingD8/prodD8
 
 ### Tasks
 Currently working on the following:
 - Allow argument for scenarios. Ex: paragraph, content-type, custom, etc.
-- Decide level of granularity for urls (ex: paragraphs - only test the dom for the paragraph main area)
 - Implement scenarios and very reference works against a base.
 - Create reference and update workflow docs. 
 - Integration with CircleCi:
@@ -92,14 +91,52 @@ You MUST include a label and url for each url to test.
 }
 ```
 
+#### Customizing a url scenario
+
+Use the `extend` object to add additional parameters to your URL
+
+Example: This will only test the header and footer on Whitepapers.
+```json
+  {
+    "label": "Whitepapers",
+    "url": "learn/whitepapers",
+    "extend": {
+      "selectors": [
+        ".global-header",
+        ".global-footer"
+      ]
+    }
+}
+```
+
+##### To add customization to ALL scenarios in a json batch
+Use the `allScenarioOptions` variable in the script for running the batch.
+
+Exampe: for `migration.js` we set the following to remove header and footer from all URLs
+and ensure we hide the feedback button on mkt-review.
+
+```js
+const allScenarioOptions = {
+  removeSelectors: [
+    '.global-header',
+    '.global-footer'
+  ],
+  hideSelectors: [
+    '[class^=\'us–style-manager-1buttonIframe\']'
+  ]
+}
+```
+
 #### Types of response ####
 Backstop is using the `report: ['browser', 'CI'],` config, which returns a JSON response as well as a browser window with bitmaps for visual comparison.
 
 
 ## Test results ##
-Test results are saved in the `/backstop_data/bitmaps_test` directory. Each set of results is grouped in a timestamped directory. Individual test files are named using the path of the URL.
+Test results are saved in the `/backstop_data/bitmaps_test` directory. Each set of results is grouped in a project directory. 
+Individual test files are named using the path of the URL.
 
-Visual results are found in the `/backstop_data/html_report` folder. It also will be launched automatically at the end of the test.
+Visual results are found in the `/backstop_data/html_report` folder. 
+It also will be launched automatically at the end of the test.
 
 ## Troubleshooting ##
 
