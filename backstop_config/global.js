@@ -26,8 +26,9 @@ const VIEWPORTS = [
   }
 ]
 
+const SCENARIOS = args.scenarios ? args.scenarios : console.log('❗❗❗ You need to specify a scenario to run. Use --scenario [name]')
 const TEST = args.testEnv ? { name: 'override-test', siteUrl: args.testEnv } : LOCAL
 const REFERENCE = args.referenceEnv ? { name: 'override-reference', siteUrl: args.referenceEnv } : STAGING
 const PROJECT_ID = args.projectID ? args.projectID + '_regression' : TEST.name + '_regression'
 
-module.exports = exports = { PRODUCTION, STAGING, LOCAL, TEST, REFERENCE, PROJECT_ID, VIEWPORTS }
+module.exports = exports = { PRODUCTION, STAGING, LOCAL, TEST, REFERENCE, PROJECT_ID, VIEWPORTS, SCENARIOS }

@@ -5,12 +5,15 @@
   "repository": "https://github.com/tableau-mkt/tableau_visual_regression",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js --test",
+    "test": "jest",
     "openReport": "node app.js --openReport",
     "approve": "node app.js --approve",
     "reference": "node app.js --reference",
     "single": "node lib/single.js",
-    "migration": "node lib/migration.js --projectID migration"
+    "migration": "node lib/generic.js --projectID migration --scenarios migration",
+    "demo": "node lib/generic.js --projectID demo --scenarios demo",
+    "header-footer": "node lib/generic.js --projectID header-footer --scenarios header-footer",
+    "paragraphs": "node lib/generic.js --projectID paragraphs --scenarios paragraphs"
   },
   "keywords": [
     "visual_regression",
@@ -22,7 +25,7 @@
   "_moduleAliases": {
     "@root": ".",
     "@config": "backstop_config",
-    "@scenario": "backstop_config/scenario",
+    "@scenarios": "backstop_config/scenarios",
     "@lib": "lib",
     "@data": "backstop_data",
     "@html_report": "backstop_data/html_report",
@@ -31,9 +34,16 @@
     "@bitmap_reference": "backstop_data/bitmap_reference",
     "@bitmap_test": "backstop_data/bitmap_test"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "^@lib/(.*)$": "<rootDir>/lib/$1"
+    }
+  },
   "dependencies": {
     "backstopjs": "^5.0.1",
     "date-format": "^2.1.0",
+    "jest": "^26.4.2",
+    "lodash.mergewith": "^4.6.2",
     "module-alias": "^2.2.2",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },

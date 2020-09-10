@@ -2,10 +2,8 @@
 require('module-alias/register')
 const args = require('yargs').argv
 const { build: buildScenario } = require('@lib/helpers/scenario')
-const { TEST, REFERENCE, PROJECT_ID } = require('@config/global')
+const { REFERENCE, PROJECT_ID } = require('@config/global')
 console.log('⭐️️  Running test for ' + PROJECT_ID)
-console.log('⭐️  Testing environment ' + TEST.siteUrl)
-console.log('⭐️  Reference environment ' + REFERENCE.siteUrl)
 
 let commandToRun = ''
 
