@@ -1,38 +1,54 @@
-#! /usr/bin/env node --no-warnings
+#!/usr/bin/env node
+
 require('module-alias/register')
-const args = require('yargs').argv
-const { build: buildScenario } = require('@lib/helpers/scenario')
-const { REFERENCE, PROJECT_ID } = require('@config/global')
-console.log('⭐️️  Running test for ' + PROJECT_ID)
+require('dotenv').config()
 
-let commandToRun = ''
+const { Command } = require('commander')
+const actions = require('@lib/actions')
 
-if (args.reference) {
-  commandToRun = 'reference'
-}
+const program = new Command()
+program.version('0.1.0')
 
-if (args.test) {
-  commandToRun = 'test'
-}
+/**
+ * Define the commands in the `scenario` namespace
+ *
+ * @param string[] subCommands
+ */
+function makeScenarioCommands(subCommands) {
+  const root = new Command('scenario')
 
-if (args.openReport) {
-  commandToRun = 'openReport'
-}
-
-if (args.approve) {
-  commandToRun = 'approve'
-}
-
-function getScenariosForProject ({ siteUrl }, scenario, globalOptions) {
-  const scenarios = scenario.map((scenario) =>
-    buildScenario(scenario, siteUrl, REFERENCE.siteUrl, globalOptions))
-
-  scenarios.forEach(scenario => {
-    console.log('🔗  Reference ' + scenario.referenceUrl)
-    console.log('⚖️  Testing ' + scenario.url)
+  subCommands.forEach(subCommand => {
+    root
+      .command(`${subCommand} <scenario> [test-domain] [reference-domain]`)
+      .option('-p, --project <id>', 'The project ID')
+      .action(actions.scenario[subCommand])
   })
 
-  return scenarios
+  return root
 }
 
-module.exports = exports = { commandToRun, getScenariosForProject }
+/**
+ * Define the commands in the `url` namespace
+ *
+ * @param string[] subCommands
+ */
+function makeUrlCommands(subCommands) {
+  const root = new Command('url')
+
+  subCommands.forEach(subCommand => {
+    root
+      .command(`${subCommand} <test-url> <reference-url>`)
+      .option('-p, --project <id>', 'The project ID')
+      .option('-l, --label <name>', 'The test label', '')
+      .action(actions.url[subCommand])
+  })
+
+  return root
+}
+
+// Define the available commands
+const commands = ['approve', 'reference', 'report', 'test']
+program.addCommand(makeScenarioCommands(commands))
+program.addCommand(makeUrlCommands(commands))
+
+program.parse(process.argv)
