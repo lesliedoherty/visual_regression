@@ -269,9 +269,9 @@
       <failure message="Design deviation ›› mobile (document) component"/>
       <error message="Design deviation ›› mobile (document) component"/>
     </testcase>
-    <testcase classname="document" name=" ›› new-features">
-      <failure message="Design deviation ›› new-features (document) component"/>
-      <error message="Design deviation ›› new-features (document) component"/>
+    <testcase classname="" name=" ›› new-features">
+      <failure message="Design deviation ›› new-features () component"/>
+      <error message="Design deviation ›› new-features () component"/>
     </testcase>
     <testcase classname="document" name=" ›› demo">
       <failure message="Design deviation ›› demo (document) component"/>
@@ -293,9 +293,9 @@
       <failure message="Design deviation ›› online (document) component"/>
       <error message="Design deviation ›› online (document) component"/>
     </testcase>
-    <testcase classname="document" name=" ›› prep">
-      <failure message="Design deviation ›› prep (document) component"/>
-      <error message="Design deviation ›› prep (document) component"/>
+    <testcase classname="" name=" ›› prep">
+      <failure message="Design deviation ›› prep () component"/>
+      <error message="Design deviation ›› prep () component"/>
     </testcase>
     <testcase classname="document" name=" ›› server">
       <failure message="Design deviation ›› server (document) component"/>
@@ -409,9 +409,9 @@
       <failure message="Design deviation ›› reader (document) component"/>
       <error message="Design deviation ›› reader (document) component"/>
     </testcase>
-    <testcase classname="document" name=" ›› releases">
-      <failure message="Design deviation ›› releases (document) component"/>
-      <error message="Design deviation ›› releases (document) component"/>
+    <testcase classname="" name=" ›› releases">
+      <failure message="Design deviation ›› releases () component"/>
+      <error message="Design deviation ›› releases () component"/>
     </testcase>
     <testcase classname="document" name=" ›› bridge">
       <failure message="Design deviation ›› bridge (document) component"/>
@@ -437,9 +437,9 @@
       <failure message="Design deviation ›› 2020.708.4057 (document) component"/>
       <error message="Design deviation ›› 2020.708.4057 (document) component"/>
     </testcase>
-    <testcase classname="document" name=" ›› online">
-      <failure message="Design deviation ›› online (document) component"/>
-      <error message="Design deviation ›› online (document) component"/>
+    <testcase classname="" name=" ›› online">
+      <failure message="Design deviation ›› online () component"/>
+      <error message="Design deviation ›› online () component"/>
     </testcase>
     <testcase classname="document" name=" ›› 10.3">
       <failure message="Design deviation ›› 10.3 (document) component"/>
@@ -477,25 +477,25 @@
       <failure message="Design deviation ›› services (document) component"/>
       <error message="Design deviation ›› services (document) component"/>
     </testcase>
-    <testcase classname="" name=" ›› upgrade-assistance">
-      <failure message="Design deviation ›› upgrade-assistance () component"/>
-      <error message="Design deviation ›› upgrade-assistance () component"/>
+    <testcase classname="document" name=" ›› upgrade-assistance">
+      <failure message="Design deviation ›› upgrade-assistance (document) component"/>
+      <error message="Design deviation ›› upgrade-assistance (document) component"/>
     </testcase>
-    <testcase classname="" name=" ›› tableau-for-executives">
-      <failure message="Design deviation ›› tableau-for-executives () component"/>
-      <error message="Design deviation ›› tableau-for-executives () component"/>
+    <testcase classname="document" name=" ›› tableau-for-executives">
+      <failure message="Design deviation ›› tableau-for-executives (document) component"/>
+      <error message="Design deviation ›› tableau-for-executives (document) component"/>
     </testcase>
-    <testcase classname="" name=" ›› tableau-salesforce-analytics">
-      <failure message="Design deviation ›› tableau-salesforce-analytics () component"/>
-      <error message="Design deviation ›› tableau-salesforce-analytics () component"/>
+    <testcase classname="document" name=" ›› tableau-salesforce-analytics">
+      <failure message="Design deviation ›› tableau-salesforce-analytics (document) component"/>
+      <error message="Design deviation ›› tableau-salesforce-analytics (document) component"/>
     </testcase>
-    <testcase classname="" name=" ›› tableau-technology-partners">
-      <failure message="Design deviation ›› tableau-technology-partners () component"/>
-      <error message="Design deviation ›› tableau-technology-partners () component"/>
+    <testcase classname="document" name=" ›› tableau-technology-partners">
+      <failure message="Design deviation ›› tableau-technology-partners (document) component"/>
+      <error message="Design deviation ›› tableau-technology-partners (document) component"/>
     </testcase>
-    <testcase classname="" name=" ›› tableau-virtual-event-code-conduct">
-      <failure message="Design deviation ›› tableau-virtual-event-code-conduct () component"/>
-      <error message="Design deviation ›› tableau-virtual-event-code-conduct () component"/>
+    <testcase classname="document" name=" ›› tableau-virtual-event-code-conduct">
+      <failure message="Design deviation ›› tableau-virtual-event-code-conduct (document) component"/>
+      <error message="Design deviation ›› tableau-virtual-event-code-conduct (document) component"/>
     </testcase>
     <testcase classname="document" name=" ›› tos">
       <failure message="Design deviation ›› tos (document) component"/>

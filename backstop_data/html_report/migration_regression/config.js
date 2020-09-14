@@ -4,38 +4,38 @@ report({
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_wwwtableaucom_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_wwwtableaucom_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_wwwtableaucom_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_wwwtableaucom_0_document_0_tablet_h.png",
         "label": "www.tableau.com",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/",
-        "referenceUrl": "https://www.tableau.com/",
+        "url": "http://tableauwww.test",
+        "referenceUrl": "http://tableauwww.test",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -58
+            "height": -560
           },
-          "misMatchPercentage": "13.25",
-          "analysisTime": 1650
+          "misMatchPercentage": "25.75",
+          "analysisTime": 2596
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_wwwtableaucom_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_wwwtableaucom_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_about_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_about_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_about_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_about_0_document_0_tablet_h.png",
         "label": "about",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about",
-        "referenceUrl": "https://www.tableau.com/about",
+        "url": "http://tableauwww.test/about",
+        "referenceUrl": "http://tableauwww.test/about",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -44,98 +44,98 @@ report({
             "width": 0,
             "height": -1
           },
-          "misMatchPercentage": "0.19",
-          "analysisTime": 2448
+          "misMatchPercentage": "0.12",
+          "analysisTime": 2787
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_about_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_about_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_awards-and-recognition_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_awards-and-recognition_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_awards-and-recognition_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_awards-and-recognition_0_document_0_tablet_h.png",
         "label": "awards-and-recognition",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/awards-and-recognition",
-        "referenceUrl": "https://www.tableau.com/about/awards-and-recognition",
+        "url": "http://tableauwww.test/about/awards-and-recognition",
+        "referenceUrl": "http://tableauwww.test/about/awards-and-recognition",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": -1575
           },
-          "misMatchPercentage": "0.23",
-          "analysisTime": 1401
+          "misMatchPercentage": "15.41",
+          "analysisTime": 3813
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_awards-and-recognition_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_awards-and-recognition_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_blog_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_blog_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_blog_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_blog_0_document_0_tablet_h.png",
         "label": "blog",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/blog",
-        "referenceUrl": "https://www.tableau.com/about/blog",
+        "url": "http://tableauwww.test/about/blog",
+        "referenceUrl": "http://tableauwww.test/about/blog",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -319
+            "height": -343
           },
-          "misMatchPercentage": "28.59",
-          "analysisTime": 2836
+          "misMatchPercentage": "23.60",
+          "analysisTime": 2554
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_blog_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_blog_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_visualizing-all-protests-and-political-unrest-us-summer_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_visualizing-all-protests-and-political-unrest-us-summer_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_visualizing-all-protests-and-political-unrest-us-summer_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_visualizing-all-protests-and-political-unrest-us-summer_0_document_0_tablet_h.png",
         "label": "visualizing-all-protests-and-political-unrest-us-summer",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/blog/2020/8/visualizing-all-protests-and-political-unrest-us-summer",
-        "referenceUrl": "https://www.tableau.com/about/blog/2020/8/visualizing-all-protests-and-political-unrest-us-summer",
+        "url": "http://tableauwww.test/about/blog/2020/8/visualizing-all-protests-and-political-unrest-us-summer",
+        "referenceUrl": "http://tableauwww.test/about/blog/2020/8/visualizing-all-protests-and-political-unrest-us-summer",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -63
+            "height": -3503
           },
-          "misMatchPercentage": "13.60",
-          "analysisTime": 3038
+          "misMatchPercentage": "9.47",
+          "analysisTime": 3193
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_visualizing-all-protests-and-political-unrest-us-summer_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_visualizing-all-protests-and-political-unrest-us-summer_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_contact_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_contact_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_contact_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_contact_0_document_0_tablet_h.png",
         "label": "contact",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/contact",
-        "referenceUrl": "https://www.tableau.com/about/contact",
+        "url": "http://tableauwww.test/about/contact",
+        "referenceUrl": "http://tableauwww.test/about/contact",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -145,22 +145,22 @@ report({
             "height": -105
           },
           "misMatchPercentage": "29.43",
-          "analysisTime": 2552
+          "analysisTime": 2415
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_contact_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_contact_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_customer-service_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_customer-service_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_customer-service_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_customer-service_0_document_0_tablet_h.png",
         "label": "customer-service",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/contact/customer-service",
-        "referenceUrl": "https://www.tableau.com/about/contact/customer-service",
+        "url": "http://tableauwww.test/about/contact/customer-service",
+        "referenceUrl": "http://tableauwww.test/about/contact/customer-service",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -170,22 +170,22 @@ report({
             "height": -49
           },
           "misMatchPercentage": "8.28",
-          "analysisTime": 2239
+          "analysisTime": 2621
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_customer-service_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_customer-service_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_global-offices_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_global-offices_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_global-offices_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_global-offices_0_document_0_tablet_h.png",
         "label": "global-offices",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/contact/global-offices",
-        "referenceUrl": "https://www.tableau.com/about/contact/global-offices",
+        "url": "http://tableauwww.test/about/contact/global-offices",
+        "referenceUrl": "http://tableauwww.test/about/contact/global-offices",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -195,22 +195,22 @@ report({
             "height": -65
           },
           "misMatchPercentage": "11.27",
-          "analysisTime": 2456
+          "analysisTime": 2736
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_global-offices_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_global-offices_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_global-sales_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_global-sales_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_global-sales_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_global-sales_0_document_0_tablet_h.png",
         "label": "global-sales",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/contact/global-sales",
-        "referenceUrl": "https://www.tableau.com/about/contact/global-sales",
+        "url": "http://tableauwww.test/about/contact/global-sales",
+        "referenceUrl": "http://tableauwww.test/about/contact/global-sales",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -220,22 +220,22 @@ report({
             "height": -65
           },
           "misMatchPercentage": "14.57",
-          "analysisTime": 1295
+          "analysisTime": 1538
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_global-sales_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_global-sales_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_leadership_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_leadership_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_leadership_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_leadership_0_document_0_tablet_h.png",
         "label": "leadership",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/leadership",
-        "referenceUrl": "https://www.tableau.com/about/leadership",
+        "url": "http://tableauwww.test/about/leadership",
+        "referenceUrl": "http://tableauwww.test/about/leadership",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -245,147 +245,22 @@ report({
             "height": 3
           },
           "misMatchPercentage": "9.17",
-          "analysisTime": 4839
+          "analysisTime": 2010
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_leadership_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_leadership_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_mission_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_mission_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_mission_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_mission_0_document_0_tablet_h.png",
         "label": "mission",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/mission",
-        "referenceUrl": "https://www.tableau.com/about/mission",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -1
-          },
-          "misMatchPercentage": "0.05",
-          "analysisTime": 3546
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_mission_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_newsroom_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_newsroom_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_newsroom_0_document_0_tablet_h.png",
-        "label": "newsroom",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/newsroom",
-        "referenceUrl": "https://www.tableau.com/about/newsroom",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -25
-          },
-          "misMatchPercentage": "19.63",
-          "analysisTime": 1851
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_newsroom_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_PaymentOptions_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_PaymentOptions_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_PaymentOptions_0_document_0_tablet_h.png",
-        "label": "PaymentOptions",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/about/PaymentOptions",
-        "referenceUrl": "https://www.tableau.com/about/PaymentOptions",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -1
-          },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 1036
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_PaymentOptions_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_academic_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_academic_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_academic_0_document_0_tablet_h.png",
-        "label": "academic",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/academic",
-        "referenceUrl": "https://www.tableau.com/academic",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -1
-          },
-          "misMatchPercentage": "0.45",
-          "analysisTime": 2050
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_academic_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_united-nations_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_united-nations_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_united-nations_0_document_0_tablet_h.png",
-        "label": "united-nations",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/account/united-nations",
-        "referenceUrl": "https://www.tableau.com/account/united-nations",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -1
-          },
-          "misMatchPercentage": "0.22",
-          "analysisTime": 2353
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_united-nations_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_community_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_community_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_community_0_document_0_tablet_h.png",
-        "label": "community",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/community",
-        "referenceUrl": "https://www.tableau.com/community",
+        "url": "http://tableauwww.test/about/mission",
+        "referenceUrl": "http://tableauwww.test/about/mission",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -394,23 +269,148 @@ report({
             "width": 0,
             "height": 1
           },
-          "misMatchPercentage": "0.17",
-          "analysisTime": 2489
+          "misMatchPercentage": "0.05",
+          "analysisTime": 1049
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_community_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_mission_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_newsroom_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_newsroom_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_newsroom_0_document_0_tablet_h.png",
+        "label": "newsroom",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/about/newsroom",
+        "referenceUrl": "http://tableauwww.test/about/newsroom",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -25
+          },
+          "misMatchPercentage": "20.75",
+          "analysisTime": 3124
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_newsroom_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_PaymentOptions_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_PaymentOptions_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_PaymentOptions_0_document_0_tablet_h.png",
+        "label": "PaymentOptions",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/about/PaymentOptions",
+        "referenceUrl": "http://tableauwww.test/about/PaymentOptions",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 1
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 838
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_PaymentOptions_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_academic_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_academic_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_academic_0_document_0_tablet_h.png",
+        "label": "academic",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/academic",
+        "referenceUrl": "http://tableauwww.test/academic",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -34
+          },
+          "misMatchPercentage": "12.32",
+          "analysisTime": 3086
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_academic_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_united-nations_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_united-nations_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_united-nations_0_document_0_tablet_h.png",
+        "label": "united-nations",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/account/united-nations",
+        "referenceUrl": "http://tableauwww.test/account/united-nations",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1
+          },
+          "misMatchPercentage": "0.28",
+          "analysisTime": 2216
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_united-nations_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_community_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_community_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_community_0_document_0_tablet_h.png",
+        "label": "community",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/community",
+        "referenceUrl": "http://tableauwww.test/community",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 1
+          },
+          "misMatchPercentage": "1.18",
+          "analysisTime": 2327
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_community_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_community-request-speaker_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_community-request-speaker_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_community-request-speaker_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_community-request-speaker_0_document_0_tablet_h.png",
         "label": "community-request-speaker",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/community-request-speaker",
-        "referenceUrl": "https://www.tableau.com/community-request-speaker",
+        "url": "http://tableauwww.test/community-request-speaker",
+        "referenceUrl": "http://tableauwww.test/community-request-speaker",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -420,47 +420,47 @@ report({
             "height": -1545
           },
           "misMatchPercentage": "0.72",
-          "analysisTime": 1392
+          "analysisTime": 2400
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_community-request-speaker_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_community-request-speaker_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_events_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_events_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_events_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_events_0_document_0_tablet_h.png",
         "label": "events",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/community/events",
-        "referenceUrl": "https://www.tableau.com/community/events",
+        "url": "http://tableauwww.test/community/events",
+        "referenceUrl": "http://tableauwww.test/community/events",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -93
+            "width": 2596,
+            "height": -3781
           },
-          "misMatchPercentage": "17.01",
-          "analysisTime": 3033
+          "misMatchPercentage": "3.05",
+          "analysisTime": 5536
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_events_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_events_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_compare_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_compare_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_compare_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_compare_0_document_0_tablet_h.png",
         "label": "compare",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/compare",
-        "referenceUrl": "https://www.tableau.com/compare",
+        "url": "http://tableauwww.test/compare",
+        "referenceUrl": "http://tableauwww.test/compare",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -469,23 +469,23 @@ report({
             "width": 0,
             "height": -1
           },
-          "misMatchPercentage": "0.01",
-          "analysisTime": 1684
+          "misMatchPercentage": "0.12",
+          "analysisTime": 2699
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_compare_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_compare_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_data-culture_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_data-culture_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_data-culture_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_data-culture_0_document_0_tablet_h.png",
         "label": "data-culture",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/data-culture",
-        "referenceUrl": "https://www.tableau.com/data-culture",
+        "url": "http://tableauwww.test/data-culture",
+        "referenceUrl": "http://tableauwww.test/data-culture",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -494,48 +494,48 @@ report({
             "width": 0,
             "height": -1
           },
-          "misMatchPercentage": "0.17",
-          "analysisTime": 3865
+          "misMatchPercentage": "0.13",
+          "analysisTime": 2023
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_data-culture_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_data-culture_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_data-for-kids_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_data-for-kids_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_data-for-kids_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_data-for-kids_0_document_0_tablet_h.png",
         "label": "data-for-kids",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/data-for-kids",
-        "referenceUrl": "https://www.tableau.com/data-for-kids",
+        "url": "http://tableauwww.test/data-for-kids",
+        "referenceUrl": "http://tableauwww.test/data-for-kids",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -39
+            "height": -33
           },
-          "misMatchPercentage": "10.33",
-          "analysisTime": 2833
+          "misMatchPercentage": "13.73",
+          "analysisTime": 3087
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_data-for-kids_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_data-for-kids_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_data-sets-students_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_data-sets-students_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_data-sets-students_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_data-sets-students_0_document_0_tablet_h.png",
         "label": "data-sets-students",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/data-sets-students",
-        "referenceUrl": "https://www.tableau.com/data-sets-students",
+        "url": "http://tableauwww.test/data-sets-students",
+        "referenceUrl": "http://tableauwww.test/data-sets-students",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -545,22 +545,22 @@ report({
             "height": -983
           },
           "misMatchPercentage": "34.72",
-          "analysisTime": 1402
+          "analysisTime": 1688
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_data-sets-students_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_data-sets-students_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_data-storytelling_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_data-storytelling_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_data-storytelling_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_data-storytelling_0_document_0_tablet_h.png",
         "label": "data-storytelling",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/data-storytelling",
-        "referenceUrl": "https://www.tableau.com/data-storytelling",
+        "url": "http://tableauwww.test/data-storytelling",
+        "referenceUrl": "http://tableauwww.test/data-storytelling",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -570,47 +570,47 @@ report({
             "height": -1
           },
           "misMatchPercentage": "3.69",
-          "analysisTime": 1902
+          "analysisTime": 1857
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_data-storytelling_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_data-storytelling_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_developer_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_developer_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_developer_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_developer_0_document_0_tablet_h.png",
         "label": "developer",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/developer",
-        "referenceUrl": "https://www.tableau.com/developer",
+        "url": "http://tableauwww.test/developer",
+        "referenceUrl": "http://tableauwww.test/developer",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -36
+            "height": -38
           },
-          "misMatchPercentage": "16.51",
-          "analysisTime": 2470
+          "misMatchPercentage": "16.27",
+          "analysisTime": 3079
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_developer_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_developer_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_dreamforce_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_dreamforce_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_dreamforce_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_dreamforce_0_document_0_tablet_h.png",
         "label": "dreamforce",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/dreamforce",
-        "referenceUrl": "https://www.tableau.com/dreamforce",
+        "url": "http://tableauwww.test/dreamforce",
+        "referenceUrl": "http://tableauwww.test/dreamforce",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -620,22 +620,22 @@ report({
             "height": -52
           },
           "misMatchPercentage": "28.84",
-          "analysisTime": 2269
+          "analysisTime": 2905
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_dreamforce_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_dreamforce_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_embedded-analytics_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_embedded-analytics_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_embedded-analytics_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_embedded-analytics_0_document_0_tablet_h.png",
         "label": "embedded-analytics",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/embedded-analytics",
-        "referenceUrl": "https://www.tableau.com/embedded-analytics",
+        "url": "http://tableauwww.test/embedded-analytics",
+        "referenceUrl": "http://tableauwww.test/embedded-analytics",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -645,22 +645,22 @@ report({
             "height": -1
           },
           "misMatchPercentage": "1.70",
-          "analysisTime": 4229
+          "analysisTime": 2003
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_embedded-analytics_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_embedded-analytics_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_enterprise-IT_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_enterprise-IT_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_enterprise-IT_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_enterprise-IT_0_document_0_tablet_h.png",
         "label": "enterprise-IT",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/enterprise-IT",
-        "referenceUrl": "https://www.tableau.com/enterprise-IT",
+        "url": "http://tableauwww.test/enterprise-IT",
+        "referenceUrl": "http://tableauwww.test/enterprise-IT",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -670,22 +670,22 @@ report({
             "height": -55
           },
           "misMatchPercentage": "25.67",
-          "analysisTime": 3245
+          "analysisTime": 3492
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_enterprise-IT_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_enterprise-IT_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_foundation_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_foundation_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_foundation_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_foundation_0_document_0_tablet_h.png",
         "label": "foundation",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/foundation",
-        "referenceUrl": "https://www.tableau.com/foundation",
+        "url": "http://tableauwww.test/foundation",
+        "referenceUrl": "http://tableauwww.test/foundation",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -695,47 +695,47 @@ report({
             "height": -391
           },
           "misMatchPercentage": "24.30",
-          "analysisTime": 3986
+          "analysisTime": 3181
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_foundation_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_foundation_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_home_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_home_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_home_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_home_0_document_0_tablet_h.png",
         "label": "home",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/home",
-        "referenceUrl": "https://www.tableau.com/home",
+        "url": "http://tableauwww.test/home",
+        "referenceUrl": "http://tableauwww.test/home",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -28
+            "height": -628
           },
-          "misMatchPercentage": "20.69",
-          "analysisTime": 2398
+          "misMatchPercentage": "25.52",
+          "analysisTime": 2424
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_home_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_home_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_iron-viz_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_iron-viz_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_iron-viz_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_iron-viz_0_document_0_tablet_h.png",
         "label": "iron-viz",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/iron-viz",
-        "referenceUrl": "https://www.tableau.com/iron-viz",
+        "url": "http://tableauwww.test/iron-viz",
+        "referenceUrl": "http://tableauwww.test/iron-viz",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -744,73 +744,73 @@ report({
             "width": 0,
             "height": -91
           },
-          "misMatchPercentage": "8.71",
-          "analysisTime": 4274
+          "misMatchPercentage": "8.70",
+          "analysisTime": 2554
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_iron-viz_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_iron-viz_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_leading-through-change_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_leading-through-change_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_leading-through-change_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_leading-through-change_0_document_0_tablet_h.png",
         "label": "leading-through-change",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/leading-through-change",
-        "referenceUrl": "https://www.tableau.com/leading-through-change",
+        "url": "http://tableauwww.test/leading-through-change",
+        "referenceUrl": "http://tableauwww.test/leading-through-change",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -271
+            "width": 2596,
+            "height": -4149
           },
-          "misMatchPercentage": "12.43",
-          "analysisTime": 3119
+          "misMatchPercentage": "5.90",
+          "analysisTime": 4709
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_leading-through-change_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_leading-through-change_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_learn_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_learn_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_learn_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_learn_0_document_0_tablet_h.png",
         "label": "learn",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn",
-        "referenceUrl": "https://www.tableau.com/learn",
+        "url": "http://tableauwww.test/learn",
+        "referenceUrl": "http://tableauwww.test/learn",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -47
+            "height": -6156
           },
-          "misMatchPercentage": "2.65",
-          "analysisTime": 1369
+          "misMatchPercentage": "1.67",
+          "analysisTime": 2861
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_learn_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_learn_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_articles_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_articles_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_articles_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_articles_0_document_0_tablet_h.png",
         "label": "articles",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/articles",
-        "referenceUrl": "https://www.tableau.com/learn/articles",
+        "url": "http://tableauwww.test/learn/articles",
+        "referenceUrl": "http://tableauwww.test/learn/articles",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -820,47 +820,47 @@ report({
             "height": -11
           },
           "misMatchPercentage": "4.86",
-          "analysisTime": 1673
+          "analysisTime": 3084
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_articles_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_articles_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_certification_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_certification_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_certification_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_certification_0_document_0_tablet_h.png",
         "label": "certification",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/certification",
-        "referenceUrl": "https://www.tableau.com/learn/certification",
+        "url": "http://tableauwww.test/learn/certification",
+        "referenceUrl": "http://tableauwww.test/learn/certification",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": -33
           },
-          "misMatchPercentage": "0.06",
-          "analysisTime": 2516
+          "misMatchPercentage": "16.30",
+          "analysisTime": 3049
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_certification_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_certification_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_classroom_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_classroom_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_classroom_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_classroom_0_document_0_tablet_h.png",
         "label": "classroom",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/classroom",
-        "referenceUrl": "https://www.tableau.com/learn/classroom",
+        "url": "http://tableauwww.test/learn/classroom",
+        "referenceUrl": "http://tableauwww.test/learn/classroom",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -869,23 +869,23 @@ report({
             "width": 0,
             "height": 26
           },
-          "misMatchPercentage": "11.91",
-          "analysisTime": 3096
+          "misMatchPercentage": "11.88",
+          "analysisTime": 3366
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_classroom_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_classroom_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_data-viz-debate_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_data-viz-debate_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_data-viz-debate_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_data-viz-debate_0_document_0_tablet_h.png",
         "label": "data-viz-debate",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/data-viz-debate",
-        "referenceUrl": "https://www.tableau.com/learn/data-viz-debate",
+        "url": "http://tableauwww.test/learn/data-viz-debate",
+        "referenceUrl": "http://tableauwww.test/learn/data-viz-debate",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -895,72 +895,72 @@ report({
             "height": -1
           },
           "misMatchPercentage": "5.17",
-          "analysisTime": 2019
+          "analysisTime": 2963
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_data-viz-debate_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_data-viz-debate_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_live-training_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_live-training_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_live-training_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_live-training_0_document_0_tablet_h.png",
         "label": "live-training",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/live-training",
-        "referenceUrl": "https://www.tableau.com/learn/live-training",
+        "url": "http://tableauwww.test/learn/live-training",
+        "referenceUrl": "http://tableauwww.test/learn/live-training",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -29
+            "height": -1105
           },
-          "misMatchPercentage": "10.83",
-          "analysisTime": 1840
+          "misMatchPercentage": "17.14",
+          "analysisTime": 1861
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_live-training_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_live-training_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_training_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_training_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_training_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_training_0_document_0_tablet_h.png",
         "label": "training",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/training",
-        "referenceUrl": "https://www.tableau.com/learn/training",
+        "url": "http://tableauwww.test/learn/training",
+        "referenceUrl": "http://tableauwww.test/learn/training",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -89
+            "height": -39
           },
-          "misMatchPercentage": "15.08",
-          "analysisTime": 2258
+          "misMatchPercentage": "14.70",
+          "analysisTime": 2593
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_training_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_training_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_welcome-tableau-server-trial_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_welcome-tableau-server-trial_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_welcome-tableau-server-trial_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_welcome-tableau-server-trial_0_document_0_tablet_h.png",
         "label": "welcome-tableau-server-trial",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/welcome-tableau-server-trial",
-        "referenceUrl": "https://www.tableau.com/learn/welcome-tableau-server-trial",
+        "url": "http://tableauwww.test/learn/welcome-tableau-server-trial",
+        "referenceUrl": "http://tableauwww.test/learn/welcome-tableau-server-trial",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -970,22 +970,22 @@ report({
             "height": -82
           },
           "misMatchPercentage": "0.88",
-          "analysisTime": 1732
+          "analysisTime": 2814
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_welcome-tableau-server-trial_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_welcome-tableau-server-trial_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_whitepapers_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_whitepapers_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_whitepapers_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_whitepapers_0_document_0_tablet_h.png",
         "label": "whitepapers",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/learn/whitepapers",
-        "referenceUrl": "https://www.tableau.com/learn/whitepapers",
+        "url": "http://tableauwww.test/learn/whitepapers",
+        "referenceUrl": "http://tableauwww.test/learn/whitepapers",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -995,47 +995,47 @@ report({
             "height": -471
           },
           "misMatchPercentage": "13.15",
-          "analysisTime": 1973
+          "analysisTime": 2537
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_whitepapers_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_whitepapers_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_legal_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_legal_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_legal_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_legal_0_document_0_tablet_h.png",
         "label": "legal",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/legal",
-        "referenceUrl": "https://www.tableau.com/legal",
+        "url": "http://tableauwww.test/legal",
+        "referenceUrl": "http://tableauwww.test/legal",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -49
+            "height": -14
           },
-          "misMatchPercentage": "8.15",
-          "analysisTime": 934
+          "misMatchPercentage": "5.93",
+          "analysisTime": 1546
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_legal_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_legal_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_cookies_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_cookies_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_cookies_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_cookies_0_document_0_tablet_h.png",
         "label": "cookies",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/legal/cookies",
-        "referenceUrl": "https://www.tableau.com/legal/cookies",
+        "url": "http://tableauwww.test/legal/cookies",
+        "referenceUrl": "http://tableauwww.test/legal/cookies",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1045,25 +1045,25 @@ report({
             "height": -49
           },
           "misMatchPercentage": "26.92",
-          "analysisTime": 4584
+          "analysisTime": 2629
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_cookies_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_cookies_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_regional-privacy-laws_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_regional-privacy-laws_0__0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_regional-privacy-laws_0__0_tablet_h.png",
         "selector": "",
         "fileName": "migration_regression_test_regional-privacy-laws_0__0_tablet_h.png",
         "label": "regional-privacy-laws",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/legal/regional-privacy-laws",
-        "referenceUrl": "https://www.tableau.com/legal/regional-privacy-laws",
+        "url": "http://tableauwww.test/legal/regional-privacy-laws",
+        "referenceUrl": "http://tableauwww.test/legal/regional-privacy-laws",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "engineErrorMsg": "net::ERR_TOO_MANY_REDIRECTS at https://dev-tableau-www.pantheonsite.io/legal/regional-privacy-laws",
+        "engineErrorMsg": "net::ERR_TOO_MANY_REDIRECTS at http://tableauwww.test/legal/regional-privacy-laws",
         "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_regional-privacy-laws_0__0_tablet_h.png"
       },
       "status": "fail"
@@ -1071,13 +1071,13 @@ report({
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_metrics_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_metrics_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_metrics_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_metrics_0_document_0_tablet_h.png",
         "label": "metrics",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/metrics",
-        "referenceUrl": "https://www.tableau.com/metrics",
+        "url": "http://tableauwww.test/metrics",
+        "referenceUrl": "http://tableauwww.test/metrics",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1086,23 +1086,23 @@ report({
             "width": 0,
             "height": -1
           },
-          "misMatchPercentage": "0.42",
-          "analysisTime": 1572
+          "misMatchPercentage": "0.61",
+          "analysisTime": 1239
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_metrics_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_metrics_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_modern-bi_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_modern-bi_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_modern-bi_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_modern-bi_0_document_0_tablet_h.png",
         "label": "modern-bi",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/modern-bi",
-        "referenceUrl": "https://www.tableau.com/modern-bi",
+        "url": "http://tableauwww.test/modern-bi",
+        "referenceUrl": "http://tableauwww.test/modern-bi",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1112,22 +1112,22 @@ report({
             "height": -1
           },
           "misMatchPercentage": "4.51",
-          "analysisTime": 2484
+          "analysisTime": 1524
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_modern-bi_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_modern-bi_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_partners_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_partners_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_partners_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_partners_0_document_0_tablet_h.png",
         "label": "partners",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/partners",
-        "referenceUrl": "https://www.tableau.com/partners",
+        "url": "http://tableauwww.test/partners",
+        "referenceUrl": "http://tableauwww.test/partners",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1136,23 +1136,23 @@ report({
             "width": 0,
             "height": -1
           },
-          "misMatchPercentage": "1.67",
-          "analysisTime": 1168
+          "misMatchPercentage": "1.80",
+          "analysisTime": 1821
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_partners_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_partners_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_embedded_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_embedded_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_embedded_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_embedded_0_document_0_tablet_h.png",
         "label": "embedded",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/pricing/embedded",
-        "referenceUrl": "https://www.tableau.com/pricing/embedded",
+        "url": "http://tableauwww.test/pricing/embedded",
+        "referenceUrl": "http://tableauwww.test/pricing/embedded",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1162,47 +1162,47 @@ report({
             "height": -4
           },
           "misMatchPercentage": "7.98",
-          "analysisTime": 2095
+          "analysisTime": 2276
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_embedded_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_embedded_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_how-to-decide_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_how-to-decide_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_how-to-decide_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_how-to-decide_0_document_0_tablet_h.png",
         "label": "how-to-decide",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/pricing/how-to-decide",
-        "referenceUrl": "https://www.tableau.com/pricing/how-to-decide",
+        "url": "http://tableauwww.test/pricing/how-to-decide",
+        "referenceUrl": "http://tableauwww.test/pricing/how-to-decide",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 3
+            "height": -3
           },
           "misMatchPercentage": "4.15",
-          "analysisTime": 3611
+          "analysisTime": 2173
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_how-to-decide_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_how-to-decide_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_individual_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_individual_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_individual_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_individual_0_document_0_tablet_h.png",
         "label": "individual",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/pricing/individual",
-        "referenceUrl": "https://www.tableau.com/pricing/individual",
+        "url": "http://tableauwww.test/pricing/individual",
+        "referenceUrl": "http://tableauwww.test/pricing/individual",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1212,47 +1212,47 @@ report({
             "height": -1167
           },
           "misMatchPercentage": "30.41",
-          "analysisTime": 3337
+          "analysisTime": 3719
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_individual_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_individual_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_teams-orgs_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_teams-orgs_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_teams-orgs_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_teams-orgs_0_document_0_tablet_h.png",
         "label": "teams-orgs",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/pricing/teams-orgs",
-        "referenceUrl": "https://www.tableau.com/pricing/teams-orgs",
+        "url": "http://tableauwww.test/pricing/teams-orgs",
+        "referenceUrl": "http://tableauwww.test/pricing/teams-orgs",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -31
+            "width": -840,
+            "height": 1074
           },
-          "misMatchPercentage": "8.37",
-          "analysisTime": 4905
+          "misMatchPercentage": "17.59",
+          "analysisTime": 2183
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_teams-orgs_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_teams-orgs_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_privacy_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_privacy_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_privacy_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_privacy_0_document_0_tablet_h.png",
         "label": "privacy",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/privacy",
-        "referenceUrl": "https://www.tableau.com/privacy",
+        "url": "http://tableauwww.test/privacy",
+        "referenceUrl": "http://tableauwww.test/privacy",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1262,47 +1262,47 @@ report({
             "height": -49
           },
           "misMatchPercentage": "17.73",
-          "analysisTime": 5444
+          "analysisTime": 2332
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_privacy_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_privacy_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_products_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_products_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_products_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_products_0_document_0_tablet_h.png",
         "label": "products",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products",
-        "referenceUrl": "https://www.tableau.com/products",
+        "url": "http://tableauwww.test/products",
+        "referenceUrl": "http://tableauwww.test/products",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": -4
           },
-          "misMatchPercentage": "1.18",
-          "analysisTime": 2795
+          "misMatchPercentage": "2.78",
+          "analysisTime": 789
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_products_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_products_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_accessibility_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_accessibility_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_accessibility_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_accessibility_0_document_0_tablet_h.png",
         "label": "accessibility",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/accessibility",
-        "referenceUrl": "https://www.tableau.com/products/accessibility",
+        "url": "http://tableauwww.test/products/accessibility",
+        "referenceUrl": "http://tableauwww.test/products/accessibility",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1312,22 +1312,22 @@ report({
             "height": -1
           },
           "misMatchPercentage": "0.65",
-          "analysisTime": 748
+          "analysisTime": 499
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_accessibility_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_accessibility_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_catalog_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_catalog_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_catalog_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_catalog_0_document_0_tablet_h.png",
         "label": "catalog",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/add-ons/catalog",
-        "referenceUrl": "https://www.tableau.com/products/add-ons/catalog",
+        "url": "http://tableauwww.test/products/add-ons/catalog",
+        "referenceUrl": "http://tableauwww.test/products/add-ons/catalog",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1337,72 +1337,72 @@ report({
             "height": -312
           },
           "misMatchPercentage": "10.28",
-          "analysisTime": 2408
+          "analysisTime": 1228
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_catalog_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_catalog_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_data-management_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_data-management_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_data-management_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_data-management_0_document_0_tablet_h.png",
         "label": "data-management",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/add-ons/data-management",
-        "referenceUrl": "https://www.tableau.com/products/add-ons/data-management",
+        "url": "http://tableauwww.test/products/add-ons/data-management",
+        "referenceUrl": "http://tableauwww.test/products/add-ons/data-management",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": -61
           },
-          "misMatchPercentage": "0.50",
-          "analysisTime": 1229
+          "misMatchPercentage": "25.76",
+          "analysisTime": 312
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_data-management_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_data-management_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_catalog-request_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_catalog-request_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_catalog-request_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_catalog-request_0_document_0_tablet_h.png",
         "label": "catalog-request",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/add-ons/data-management/catalog-request",
-        "referenceUrl": "https://www.tableau.com/products/add-ons/data-management/catalog-request",
+        "url": "http://tableauwww.test/products/add-ons/data-management/catalog-request",
+        "referenceUrl": "http://tableauwww.test/products/add-ons/data-management/catalog-request",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -26
+            "height": -24
           },
-          "misMatchPercentage": "17.64",
-          "analysisTime": 538
+          "misMatchPercentage": "17.23",
+          "analysisTime": 445
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_catalog-request_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_catalog-request_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_request-limited-release_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_request-limited-release_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_request-limited-release_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_request-limited-release_0_document_0_tablet_h.png",
         "label": "request-limited-release",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/add-ons/data-management/request-limited-release",
-        "referenceUrl": "https://www.tableau.com/products/add-ons/data-management/request-limited-release",
+        "url": "http://tableauwww.test/products/add-ons/data-management/request-limited-release",
+        "referenceUrl": "http://tableauwww.test/products/add-ons/data-management/request-limited-release",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1412,22 +1412,22 @@ report({
             "height": -1
           },
           "misMatchPercentage": "1.07",
-          "analysisTime": 758
+          "analysisTime": 196
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_request-limited-release_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_request-limited-release_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_server-management_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_server-management_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_server-management_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_server-management_0_document_0_tablet_h.png",
         "label": "server-management",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/add-ons/server-management",
-        "referenceUrl": "https://www.tableau.com/products/add-ons/server-management",
+        "url": "http://tableauwww.test/products/add-ons/server-management",
+        "referenceUrl": "http://tableauwww.test/products/add-ons/server-management",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1437,22 +1437,22 @@ report({
             "height": -256
           },
           "misMatchPercentage": "8.84",
-          "analysisTime": 3113
+          "analysisTime": 3756
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_server-management_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_server-management_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_all-features_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_all-features_0__0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_all-features_0__0_tablet_h.png",
         "selector": "",
         "fileName": "migration_regression_test_all-features_0__0_tablet_h.png",
         "label": "all-features",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/all-features",
-        "referenceUrl": "https://www.tableau.com/products/all-features",
+        "url": "http://tableauwww.test/products/all-features",
+        "referenceUrl": "http://tableauwww.test/products/all-features",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "engineErrorMsg": "Navigation timeout of 60000 ms exceeded",
@@ -1463,38 +1463,38 @@ report({
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_buy-more_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_buy-more_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_buy-more_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_buy-more_0_document_0_tablet_h.png",
         "label": "buy-more",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/buy-more",
-        "referenceUrl": "https://www.tableau.com/products/buy-more",
+        "url": "http://tableauwww.test/products/buy-more",
+        "referenceUrl": "http://tableauwww.test/products/buy-more",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": -1591
           },
-          "misMatchPercentage": "0.75",
-          "analysisTime": 1170
+          "misMatchPercentage": "35.58",
+          "analysisTime": 562
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_buy-more_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_buy-more_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_cloud-bi_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_cloud-bi_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_cloud-bi_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_cloud-bi_0_document_0_tablet_h.png",
         "label": "cloud-bi",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/cloud-bi",
-        "referenceUrl": "https://www.tableau.com/products/cloud-bi",
+        "url": "http://tableauwww.test/products/cloud-bi",
+        "referenceUrl": "http://tableauwww.test/products/cloud-bi",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1503,73 +1503,73 @@ report({
             "width": 0,
             "height": 1
           },
-          "misMatchPercentage": "5.16",
-          "analysisTime": 3612
+          "misMatchPercentage": "5.18",
+          "analysisTime": 3782
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_cloud-bi_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_cloud-bi_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_coming-soon_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_coming-soon_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_coming-soon_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_coming-soon_0_document_0_tablet_h.png",
         "label": "coming-soon",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/coming-soon",
-        "referenceUrl": "https://www.tableau.com/products/coming-soon",
+        "url": "http://tableauwww.test/products/coming-soon",
+        "referenceUrl": "http://tableauwww.test/products/coming-soon",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": -518
           },
-          "misMatchPercentage": "2.93",
-          "analysisTime": 470
+          "misMatchPercentage": "30.45",
+          "analysisTime": 772
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_coming-soon_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_coming-soon_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_desktop_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_desktop_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_desktop_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_desktop_0_document_0_tablet_h.png",
         "label": "desktop",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/desktop",
-        "referenceUrl": "https://www.tableau.com/products/desktop",
+        "url": "http://tableauwww.test/products/desktop",
+        "referenceUrl": "http://tableauwww.test/products/desktop",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -59
+            "height": -18
           },
-          "misMatchPercentage": "10.33",
-          "analysisTime": 1715
+          "misMatchPercentage": "8.83",
+          "analysisTime": 2822
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_desktop_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_desktop_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_download_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_download_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_download_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_download_0_document_0_tablet_h.png",
         "label": "download",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/desktop/download",
-        "referenceUrl": "https://www.tableau.com/products/desktop/download",
+        "url": "http://tableauwww.test/products/desktop/download",
+        "referenceUrl": "http://tableauwww.test/products/desktop/download",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1579,22 +1579,22 @@ report({
             "height": -48
           },
           "misMatchPercentage": "20.26",
-          "analysisTime": 606
+          "analysisTime": 1074
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_download_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_download_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_individuals_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_individuals_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_individuals_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_individuals_0_document_0_tablet_h.png",
         "label": "individuals",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/individuals",
-        "referenceUrl": "https://www.tableau.com/products/individuals",
+        "url": "http://tableauwww.test/products/individuals",
+        "referenceUrl": "http://tableauwww.test/products/individuals",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1604,22 +1604,22 @@ report({
             "height": -1083
           },
           "misMatchPercentage": "31.71",
-          "analysisTime": 2273
+          "analysisTime": 2480
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_individuals_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_individuals_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_linux_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_linux_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_linux_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_linux_0_document_0_tablet_h.png",
         "label": "linux",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/linux",
-        "referenceUrl": "https://www.tableau.com/products/linux",
+        "url": "http://tableauwww.test/products/linux",
+        "referenceUrl": "http://tableauwww.test/products/linux",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1629,122 +1629,64 @@ report({
             "height": -308
           },
           "misMatchPercentage": "11.07",
-          "analysisTime": 2511
+          "analysisTime": 2999
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_linux_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_linux_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_mobile_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_mobile_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_mobile_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_mobile_0_document_0_tablet_h.png",
         "label": "mobile",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/mobile",
-        "referenceUrl": "https://www.tableau.com/products/mobile",
+        "url": "http://tableauwww.test/products/mobile",
+        "referenceUrl": "http://tableauwww.test/products/mobile",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 9
+            "height": -21
           },
-          "misMatchPercentage": "10.73",
-          "analysisTime": 942
+          "misMatchPercentage": "9.35",
+          "analysisTime": 364
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_mobile_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_mobile_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_new-features_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_new-features_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_new-features_0_document_0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_new-features_0__0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_new-features_0__0_tablet_h.png",
+        "selector": "",
+        "fileName": "migration_regression_test_new-features_0__0_tablet_h.png",
         "label": "new-features",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features",
-        "referenceUrl": "https://www.tableau.com/products/new-features",
+        "url": "http://tableauwww.test/products/new-features",
+        "referenceUrl": "http://tableauwww.test/products/new-features",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -1379
-          },
-          "misMatchPercentage": "15.82",
-          "analysisTime": 3541
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_new-features_0_document_0_tablet_h.png"
+        "engineErrorMsg": "Navigation timeout of 60000 ms exceeded",
+        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_new-features_0__0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_demo_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_demo_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_demo_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_demo_0_document_0_tablet_h.png",
         "label": "demo",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/ask-data/demo",
-        "referenceUrl": "https://www.tableau.com/products/new-features/ask-data/demo",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -1
-          },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 886
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_demo_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_desktop_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_desktop_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_desktop_0_document_0_tablet_h.png",
-        "label": "desktop",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/desktop",
-        "referenceUrl": "https://www.tableau.com/products/new-features/desktop",
-        "expect": 0,
-        "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -59
-          },
-          "misMatchPercentage": "10.33",
-          "analysisTime": 2038
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_desktop_0_document_0_tablet_h.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_explain-data_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_explain-data_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_explain-data_0_document_0_tablet_h.png",
-        "label": "explain-data",
-        "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/explain-data",
-        "referenceUrl": "https://www.tableau.com/products/new-features/explain-data",
+        "url": "http://tableauwww.test/products/new-features/ask-data/demo",
+        "referenceUrl": "http://tableauwww.test/products/new-features/ask-data/demo",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1753,23 +1695,73 @@ report({
             "width": 0,
             "height": 1
           },
-          "misMatchPercentage": "10.21",
-          "analysisTime": 1277
+          "misMatchPercentage": "13.25",
+          "analysisTime": 1353
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_explain-data_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_demo_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_desktop_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_desktop_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_desktop_0_document_0_tablet_h.png",
+        "label": "desktop",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/products/new-features/desktop",
+        "referenceUrl": "http://tableauwww.test/products/new-features/desktop",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -18
+          },
+          "misMatchPercentage": "8.83",
+          "analysisTime": 2849
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_desktop_0_document_0_tablet_h.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_explain-data_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_explain-data_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_explain-data_0_document_0_tablet_h.png",
+        "label": "explain-data",
+        "misMatchThreshold": 1,
+        "url": "http://tableauwww.test/products/new-features/explain-data",
+        "referenceUrl": "http://tableauwww.test/products/new-features/explain-data",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 148
+          },
+          "misMatchPercentage": "9.73",
+          "analysisTime": 1781
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_explain-data_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_hyper_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_hyper_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_hyper_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_hyper_0_document_0_tablet_h.png",
         "label": "hyper",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/hyper",
-        "referenceUrl": "https://www.tableau.com/products/new-features/hyper",
+        "url": "http://tableauwww.test/products/new-features/hyper",
+        "referenceUrl": "http://tableauwww.test/products/new-features/hyper",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1779,147 +1771,139 @@ report({
             "height": -1
           },
           "misMatchPercentage": "0.36",
-          "analysisTime": 832
+          "analysisTime": 1578
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_hyper_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_hyper_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_online_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_online_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_online_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_online_0_document_0_tablet_h.png",
         "label": "online",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/online",
-        "referenceUrl": "https://www.tableau.com/products/new-features/online",
+        "url": "http://tableauwww.test/products/new-features/online",
+        "referenceUrl": "http://tableauwww.test/products/new-features/online",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -2027
+            "height": -1181
           },
-          "misMatchPercentage": "9.60",
-          "analysisTime": 1987
+          "misMatchPercentage": "6.32",
+          "analysisTime": 2724
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_online_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_online_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_prep_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_prep_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_prep_0_document_0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_prep_0__0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_prep_0__0_tablet_h.png",
+        "selector": "",
+        "fileName": "migration_regression_test_prep_0__0_tablet_h.png",
         "label": "prep",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/prep",
-        "referenceUrl": "https://www.tableau.com/products/new-features/prep",
+        "url": "http://tableauwww.test/products/new-features/prep",
+        "referenceUrl": "http://tableauwww.test/products/new-features/prep",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -35
-          },
-          "misMatchPercentage": "12.73",
-          "analysisTime": 787
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
+        "engineErrorMsg": "Navigation timeout of 60000 ms exceeded",
+        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_prep_0__0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_server_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_server_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_server_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_server_0_document_0_tablet_h.png",
         "label": "server",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/new-features/server",
-        "referenceUrl": "https://www.tableau.com/products/new-features/server",
+        "url": "http://tableauwww.test/products/new-features/server",
+        "referenceUrl": "http://tableauwww.test/products/new-features/server",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1312
+            "height": -45
           },
-          "misMatchPercentage": "13.62",
-          "analysisTime": 1771
+          "misMatchPercentage": "10.39",
+          "analysisTime": 1930
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_request-trial_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_request-trial_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_request-trial_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_request-trial_0_document_0_tablet_h.png",
         "label": "request-trial",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/online/request-trial",
-        "referenceUrl": "https://www.tableau.com/products/online/request-trial",
+        "url": "http://tableauwww.test/products/online/request-trial",
+        "referenceUrl": "http://tableauwww.test/products/online/request-trial",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -53
+            "height": -55
           },
-          "misMatchPercentage": "14.28",
-          "analysisTime": 1115
+          "misMatchPercentage": "13.98",
+          "analysisTime": 1846
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_request-trial_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_request-trial_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_prep_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_prep_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_prep_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_prep_0_document_0_tablet_h.png",
         "label": "prep",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/prep",
-        "referenceUrl": "https://www.tableau.com/products/prep",
+        "url": "http://tableauwww.test/products/prep",
+        "referenceUrl": "http://tableauwww.test/products/prep",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -35
+            "height": -168
           },
-          "misMatchPercentage": "12.73",
-          "analysisTime": 898
+          "misMatchPercentage": "17.88",
+          "analysisTime": 1095
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_download_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_download_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_download_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_download_0_document_0_tablet_h.png",
         "label": "download",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/prep/download",
-        "referenceUrl": "https://www.tableau.com/products/prep/download",
+        "url": "http://tableauwww.test/products/prep/download",
+        "referenceUrl": "http://tableauwww.test/products/prep/download",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -1929,97 +1913,97 @@ report({
             "height": -48
           },
           "misMatchPercentage": "20.26",
-          "analysisTime": 728
+          "analysisTime": 311
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_download_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_download_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_reader_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_reader_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_reader_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_reader_0_document_0_tablet_h.png",
         "label": "reader",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/reader",
-        "referenceUrl": "https://www.tableau.com/products/reader",
+        "url": "http://tableauwww.test/products/reader",
+        "referenceUrl": "http://tableauwww.test/products/reader",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -59
+            "height": -18
           },
-          "misMatchPercentage": "11.37",
-          "analysisTime": 1971
+          "misMatchPercentage": "9.60",
+          "analysisTime": 2534
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_reader_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_reader_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_server_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_server_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_server_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_server_0_document_0_tablet_h.png",
         "label": "server",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/server",
-        "referenceUrl": "https://www.tableau.com/products/server",
+        "url": "http://tableauwww.test/products/server",
+        "referenceUrl": "http://tableauwww.test/products/server",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1312
+            "height": -45
           },
-          "misMatchPercentage": "13.62",
-          "analysisTime": 1815
+          "misMatchPercentage": "10.39",
+          "analysisTime": 1121
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_teams-organizations_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_teams-organizations_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_teams-organizations_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_teams-organizations_0_document_0_tablet_h.png",
         "label": "teams-organizations",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/teams-organizations",
-        "referenceUrl": "https://www.tableau.com/products/teams-organizations",
+        "url": "http://tableauwww.test/products/teams-organizations",
+        "referenceUrl": "http://tableauwww.test/products/teams-organizations",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 1
+            "height": -1
           },
           "misMatchPercentage": "5.39",
-          "analysisTime": 2212
+          "analysisTime": 1912
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_teams-organizations_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_teams-organizations_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_techspecs_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_techspecs_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_techspecs_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_techspecs_0_document_0_tablet_h.png",
         "label": "techspecs",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/techspecs",
-        "referenceUrl": "https://www.tableau.com/products/techspecs",
+        "url": "http://tableauwww.test/products/techspecs",
+        "referenceUrl": "http://tableauwww.test/products/techspecs",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2029,22 +2013,22 @@ report({
             "height": -1
           },
           "misMatchPercentage": "0.93",
-          "analysisTime": 1453
+          "analysisTime": 3108
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_techspecs_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_techspecs_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_viewer_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_viewer_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_viewer_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_viewer_0_document_0_tablet_h.png",
         "label": "viewer",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/viewer",
-        "referenceUrl": "https://www.tableau.com/products/viewer",
+        "url": "http://tableauwww.test/products/viewer",
+        "referenceUrl": "http://tableauwww.test/products/viewer",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2054,47 +2038,47 @@ report({
             "height": -14
           },
           "misMatchPercentage": "0.18",
-          "analysisTime": 1326
+          "analysisTime": 1557
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_viewer_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_viewer_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_viewer-vs-reader_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_viewer-vs-reader_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_viewer-vs-reader_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_viewer-vs-reader_0_document_0_tablet_h.png",
         "label": "viewer-vs-reader",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/viewer-vs-reader",
-        "referenceUrl": "https://www.tableau.com/products/viewer-vs-reader",
+        "url": "http://tableauwww.test/products/viewer-vs-reader",
+        "referenceUrl": "http://tableauwww.test/products/viewer-vs-reader",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1
+            "height": 1
           },
           "misMatchPercentage": "0.13",
-          "analysisTime": 2232
+          "analysisTime": 1329
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_viewer-vs-reader_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_viewer-vs-reader_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_what-is-tableau_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_what-is-tableau_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_what-is-tableau_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_what-is-tableau_0_document_0_tablet_h.png",
         "label": "what-is-tableau",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/products/what-is-tableau",
-        "referenceUrl": "https://www.tableau.com/products/what-is-tableau",
+        "url": "http://tableauwww.test/products/what-is-tableau",
+        "referenceUrl": "http://tableauwww.test/products/what-is-tableau",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2106,20 +2090,20 @@ report({
           "misMatchPercentage": "0.12",
           "analysisTime": 1731
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_what-is-tableau_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_what-is-tableau_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_renewing-your-licenses-tableau-partners_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_renewing-your-licenses-tableau-partners_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_renewing-your-licenses-tableau-partners_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_renewing-your-licenses-tableau-partners_0_document_0_tablet_h.png",
         "label": "renewing-your-licenses-tableau-partners",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/renewing-your-licenses-tableau-partners",
-        "referenceUrl": "https://www.tableau.com/renewing-your-licenses-tableau-partners",
+        "url": "http://tableauwww.test/renewing-your-licenses-tableau-partners",
+        "referenceUrl": "http://tableauwww.test/renewing-your-licenses-tableau-partners",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2129,22 +2113,22 @@ report({
             "height": -49
           },
           "misMatchPercentage": "7.80",
-          "analysisTime": 724
+          "analysisTime": 1587
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_renewing-your-licenses-tableau-partners_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_renewing-your-licenses-tableau-partners_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_reopen-with-tableau_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_reopen-with-tableau_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_reopen-with-tableau_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_reopen-with-tableau_0_document_0_tablet_h.png",
         "label": "reopen-with-tableau",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/reopen-with-tableau",
-        "referenceUrl": "https://www.tableau.com/reopen-with-tableau",
+        "url": "http://tableauwww.test/reopen-with-tableau",
+        "referenceUrl": "http://tableauwww.test/reopen-with-tableau",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2154,22 +2138,22 @@ report({
             "height": 1
           },
           "misMatchPercentage": "0.08",
-          "analysisTime": 2257
+          "analysisTime": 1621
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_reopen-with-tableau_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_reopen-with-tableau_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_security_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_security_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_security_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_security_0_document_0_tablet_h.png",
         "label": "security",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/security",
-        "referenceUrl": "https://www.tableau.com/security",
+        "url": "http://tableauwww.test/security",
+        "referenceUrl": "http://tableauwww.test/security",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2178,23 +2162,23 @@ report({
             "width": 0,
             "height": -49
           },
-          "misMatchPercentage": "13.33",
-          "analysisTime": 2452
+          "misMatchPercentage": "13.34",
+          "analysisTime": 1990
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_security_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_security_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_smart-approach_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_smart-approach_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_smart-approach_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_smart-approach_0_document_0_tablet_h.png",
         "label": "smart-approach",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/smart-approach",
-        "referenceUrl": "https://www.tableau.com/smart-approach",
+        "url": "http://tableauwww.test/smart-approach",
+        "referenceUrl": "http://tableauwww.test/smart-approach",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2204,47 +2188,47 @@ report({
             "height": -63
           },
           "misMatchPercentage": "23.48",
-          "analysisTime": 2630
+          "analysisTime": 2254
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_smart-approach_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_smart-approach_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_snowflake-cloud-monitoring_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_snowflake-cloud-monitoring_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_snowflake-cloud-monitoring_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_snowflake-cloud-monitoring_0_document_0_tablet_h.png",
         "label": "snowflake-cloud-monitoring",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/snowflake-cloud-monitoring",
-        "referenceUrl": "https://www.tableau.com/snowflake-cloud-monitoring",
+        "url": "http://tableauwww.test/snowflake-cloud-monitoring",
+        "referenceUrl": "http://tableauwww.test/snowflake-cloud-monitoring",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -26
+            "height": -24
           },
-          "misMatchPercentage": "39.46",
-          "analysisTime": 1276
+          "misMatchPercentage": "40.14",
+          "analysisTime": 2905
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_snowflake-cloud-monitoring_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_snowflake-cloud-monitoring_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_analytics_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_analytics_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_analytics_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_analytics_0_document_0_tablet_h.png",
         "label": "analytics",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/solutions/analytics",
-        "referenceUrl": "https://www.tableau.com/solutions/analytics",
+        "url": "http://tableauwww.test/solutions/analytics",
+        "referenceUrl": "http://tableauwww.test/solutions/analytics",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2253,48 +2237,48 @@ report({
             "width": 0,
             "height": -1
           },
-          "misMatchPercentage": "3.39",
-          "analysisTime": 2186
+          "misMatchPercentage": "3.38",
+          "analysisTime": 1496
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_analytics_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_analytics_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_solutions_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_solutions_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_solutions_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_solutions_0_document_0_tablet_h.png",
         "label": "solutions",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/solutions",
-        "referenceUrl": "https://www.tableau.com/solutions",
+        "url": "http://tableauwww.test/solutions",
+        "referenceUrl": "http://tableauwww.test/solutions",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -44
+            "height": -39
           },
-          "misMatchPercentage": "15.48",
-          "analysisTime": 1043
+          "misMatchPercentage": "20.01",
+          "analysisTime": 1971
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_solutions_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_solutions_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_webinars-emea_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_webinars-emea_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_webinars-emea_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_webinars-emea_0_document_0_tablet_h.png",
         "label": "webinars-emea",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/solutions/webinars-emea",
-        "referenceUrl": "https://www.tableau.com/solutions/webinars-emea",
+        "url": "http://tableauwww.test/solutions/webinars-emea",
+        "referenceUrl": "http://tableauwww.test/solutions/webinars-emea",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -2304,757 +2288,781 @@ report({
             "height": 52
           },
           "misMatchPercentage": "28.32",
-          "analysisTime": 3179
+          "analysisTime": 2011
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_webinars-emea_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_webinars-emea_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_support_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_support_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_support_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_support_0_document_0_tablet_h.png",
         "label": "support",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support",
-        "referenceUrl": "https://www.tableau.com/support",
+        "url": "http://tableauwww.test/support",
+        "referenceUrl": "http://tableauwww.test/support",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -59
+            "height": -18
           },
-          "misMatchPercentage": "14.88",
-          "analysisTime": 1393
+          "misMatchPercentage": "11.88",
+          "analysisTime": 2054
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_support_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_support_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_desktop_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_desktop_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_desktop_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_desktop_0_document_0_tablet_h.png",
         "label": "desktop",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/desktop",
-        "referenceUrl": "https://www.tableau.com/support/desktop",
+        "url": "http://tableauwww.test/support/desktop",
+        "referenceUrl": "http://tableauwww.test/support/desktop",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -59
+            "height": -18
           },
-          "misMatchPercentage": "10.33",
-          "analysisTime": 1590
+          "misMatchPercentage": "8.83",
+          "analysisTime": 2373
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_desktop_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_desktop_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_mobile_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_mobile_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_mobile_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_mobile_0_document_0_tablet_h.png",
         "label": "mobile",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/mobile",
-        "referenceUrl": "https://www.tableau.com/support/mobile",
+        "url": "http://tableauwww.test/support/mobile",
+        "referenceUrl": "http://tableauwww.test/support/mobile",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 9
+            "height": -21
           },
-          "misMatchPercentage": "10.73",
-          "analysisTime": 646
+          "misMatchPercentage": "9.35",
+          "analysisTime": 1187
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_mobile_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_mobile_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_online_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_online_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_online_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_online_0_document_0_tablet_h.png",
         "label": "online",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/online",
-        "referenceUrl": "https://www.tableau.com/support/online",
+        "url": "http://tableauwww.test/support/online",
+        "referenceUrl": "http://tableauwww.test/support/online",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -2027
+            "height": -1181
           },
-          "misMatchPercentage": "9.60",
-          "analysisTime": 1943
+          "misMatchPercentage": "6.32",
+          "analysisTime": 3008
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_online_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_online_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_online-upgrade_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_online-upgrade_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_online-upgrade_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_online-upgrade_0_document_0_tablet_h.png",
         "label": "online-upgrade",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/online-upgrade",
-        "referenceUrl": "https://www.tableau.com/support/online-upgrade",
+        "url": "http://tableauwww.test/support/online-upgrade",
+        "referenceUrl": "http://tableauwww.test/support/online-upgrade",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -126
+            "height": -186
           },
-          "misMatchPercentage": "19.87",
-          "analysisTime": 2182
+          "misMatchPercentage": "18.33",
+          "analysisTime": 2502
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_online-upgrade_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_online-upgrade_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_prep_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_prep_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_prep_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_prep_0_document_0_tablet_h.png",
         "label": "prep",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/prep",
-        "referenceUrl": "https://www.tableau.com/support/prep",
+        "url": "http://tableauwww.test/support/prep",
+        "referenceUrl": "http://tableauwww.test/support/prep",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -35
+            "height": -168
           },
-          "misMatchPercentage": "12.73",
-          "analysisTime": 628
+          "misMatchPercentage": "17.88",
+          "analysisTime": 240
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_prep-upgrade_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_prep-upgrade_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_prep-upgrade_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_prep-upgrade_0_document_0_tablet_h.png",
         "label": "prep-upgrade",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/prep-upgrade",
-        "referenceUrl": "https://www.tableau.com/support/prep-upgrade",
+        "url": "http://tableauwww.test/support/prep-upgrade",
+        "referenceUrl": "http://tableauwww.test/support/prep-upgrade",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -123
+            "height": -475
           },
-          "misMatchPercentage": "12.65",
-          "analysisTime": 2123
+          "misMatchPercentage": "12.96",
+          "analysisTime": 1651
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_prep-upgrade_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_prep-upgrade_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_public_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_public_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_public_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_public_0_document_0_tablet_h.png",
         "label": "public",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/public",
-        "referenceUrl": "https://www.tableau.com/support/public",
+        "url": "http://tableauwww.test/support/public",
+        "referenceUrl": "http://tableauwww.test/support/public",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -59
+            "height": -18
           },
-          "misMatchPercentage": "11.78",
-          "analysisTime": 1214
+          "misMatchPercentage": "9.86",
+          "analysisTime": 592
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_public_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_public_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_reader_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_reader_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_reader_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_reader_0_document_0_tablet_h.png",
         "label": "reader",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/reader",
-        "referenceUrl": "https://www.tableau.com/support/reader",
+        "url": "http://tableauwww.test/support/reader",
+        "referenceUrl": "http://tableauwww.test/support/reader",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -59
+            "height": -18
           },
-          "misMatchPercentage": "11.37",
-          "analysisTime": 1388
+          "misMatchPercentage": "9.60",
+          "analysisTime": 468
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_reader_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_reader_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_releases_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_releases_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_releases_0_document_0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_releases_0__0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_releases_0__0_tablet_h.png",
+        "selector": "",
+        "fileName": "migration_regression_test_releases_0__0_tablet_h.png",
         "label": "releases",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases",
-        "referenceUrl": "https://www.tableau.com/support/releases",
+        "url": "http://tableauwww.test/support/releases",
+        "referenceUrl": "http://tableauwww.test/support/releases",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -105
-          },
-          "misMatchPercentage": "13.77",
-          "analysisTime": 1236
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_releases_0_document_0_tablet_h.png"
+        "engineErrorMsg": "Navigation timeout of 60000 ms exceeded",
+        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_releases_0__0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_bridge_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_bridge_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_bridge_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_bridge_0_document_0_tablet_h.png",
         "label": "bridge",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/bridge",
-        "referenceUrl": "https://www.tableau.com/support/releases/bridge",
+        "url": "http://tableauwww.test/support/releases/bridge",
+        "referenceUrl": "http://tableauwww.test/support/releases/bridge",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -760
+            "height": -820
           },
-          "misMatchPercentage": "18.60",
-          "analysisTime": 1096
+          "misMatchPercentage": "17.25",
+          "analysisTime": 1049
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_bridge_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_bridge_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_20201_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_20201_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_20201_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_20201_0_document_0_tablet_h.png",
         "label": "2020.1",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/data-management-add-on/2020.1",
-        "referenceUrl": "https://www.tableau.com/support/releases/data-management-add-on/2020.1",
+        "url": "http://tableauwww.test/support/releases/data-management-add-on/2020.1",
+        "referenceUrl": "http://tableauwww.test/support/releases/data-management-add-on/2020.1",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -223
+            "height": -299
           },
-          "misMatchPercentage": "10.62",
-          "analysisTime": 959
+          "misMatchPercentage": "7.95",
+          "analysisTime": 582
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_20201_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_20201_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_20203_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_20203_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_20203_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_20203_0_document_0_tablet_h.png",
         "label": "2020.3",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/desktop/2020.3",
-        "referenceUrl": "https://www.tableau.com/support/releases/desktop/2020.3",
+        "url": "http://tableauwww.test/support/releases/desktop/2020.3",
+        "referenceUrl": "http://tableauwww.test/support/releases/desktop/2020.3",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -137
+            "height": -3428
           },
-          "misMatchPercentage": "9.31",
-          "analysisTime": 1294
+          "misMatchPercentage": "9.91",
+          "analysisTime": 1111
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_20203_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_20203_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_0011249_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_0011249_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_0011249_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_0011249_0_document_0_tablet_h.png",
         "label": "0.0.11249",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/hyper-api/0.0.11249",
-        "referenceUrl": "https://www.tableau.com/support/releases/hyper-api/0.0.11249",
+        "url": "http://tableauwww.test/support/releases/hyper-api/0.0.11249",
+        "referenceUrl": "http://tableauwww.test/support/releases/hyper-api/0.0.11249",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 48,
-            "height": -1484
+            "width": 0,
+            "height": -1120
           },
-          "misMatchPercentage": "9.56",
-          "analysisTime": 1174
+          "misMatchPercentage": "20.00",
+          "analysisTime": 951
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_0011249_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_0011249_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_mobile_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_mobile_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_mobile_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_mobile_0_document_0_tablet_h.png",
         "label": "mobile",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/mobile",
-        "referenceUrl": "https://www.tableau.com/support/releases/mobile",
+        "url": "http://tableauwww.test/support/releases/mobile",
+        "referenceUrl": "http://tableauwww.test/support/releases/mobile",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 9
+            "height": -21
           },
-          "misMatchPercentage": "10.73",
-          "analysisTime": 538
+          "misMatchPercentage": "9.35",
+          "analysisTime": 548
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_mobile_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_mobile_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_20207084057_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_20207084057_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_20207084057_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_20207084057_0_document_0_tablet_h.png",
         "label": "2020.708.4057",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/mobile/2020.708.4057",
-        "referenceUrl": "https://www.tableau.com/support/releases/mobile/2020.708.4057",
+        "url": "http://tableauwww.test/support/releases/mobile/2020.708.4057",
+        "referenceUrl": "http://tableauwww.test/support/releases/mobile/2020.708.4057",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -127
+            "height": -721
           },
-          "misMatchPercentage": "10.45",
-          "analysisTime": 1031
+          "misMatchPercentage": "24.85",
+          "analysisTime": 1085
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_20207084057_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_20207084057_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_online_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_online_0_document_0_tablet_h.png",
-        "selector": "document",
-        "fileName": "migration_regression_test_online_0_document_0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_online_0__0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_online_0__0_tablet_h.png",
+        "selector": "",
+        "fileName": "migration_regression_test_online_0__0_tablet_h.png",
         "label": "online",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/online",
-        "referenceUrl": "https://www.tableau.com/support/releases/online",
+        "url": "http://tableauwww.test/support/releases/online",
+        "referenceUrl": "http://tableauwww.test/support/releases/online",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "diff": {
-          "isSameDimensions": false,
-          "dimensionDifference": {
-            "width": 0,
-            "height": -2027
-          },
-          "misMatchPercentage": "9.60",
-          "analysisTime": 1160
-        },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_online_0_document_0_tablet_h.png"
+        "engineErrorMsg": "Navigation timeout of 60000 ms exceeded",
+        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_online_0__0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_103_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_103_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_103_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_103_0_document_0_tablet_h.png",
         "label": "10.3",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/online/10.3",
-        "referenceUrl": "https://www.tableau.com/support/releases/online/10.3",
+        "url": "http://tableauwww.test/support/releases/online/10.3",
+        "referenceUrl": "http://tableauwww.test/support/releases/online/10.3",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -386
+            "height": -462
           },
-          "misMatchPercentage": "10.53",
-          "analysisTime": 947
+          "misMatchPercentage": "9.56",
+          "analysisTime": 1268
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_103_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_103_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_prep_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_prep_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_prep_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_prep_0_document_0_tablet_h.png",
         "label": "prep",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/prep",
-        "referenceUrl": "https://www.tableau.com/support/releases/prep",
+        "url": "http://tableauwww.test/support/releases/prep",
+        "referenceUrl": "http://tableauwww.test/support/releases/prep",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -35
+            "height": -168
           },
-          "misMatchPercentage": "12.73",
-          "analysisTime": 807
+          "misMatchPercentage": "17.88",
+          "analysisTime": 432
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_prep_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_202031_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_202031_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_202031_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_202031_0_document_0_tablet_h.png",
         "label": "2020.3.1",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/prep/2020.3.1",
-        "referenceUrl": "https://www.tableau.com/support/releases/prep/2020.3.1",
+        "url": "http://tableauwww.test/support/releases/prep/2020.3.1",
+        "referenceUrl": "http://tableauwww.test/support/releases/prep/2020.3.1",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -251
+            "height": -1690
           },
-          "misMatchPercentage": "9.01",
-          "analysisTime": 612
+          "misMatchPercentage": "16.15",
+          "analysisTime": 1532
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_202031_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_202031_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_server_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_server_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_server_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_server_0_document_0_tablet_h.png",
         "label": "server",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/server",
-        "referenceUrl": "https://www.tableau.com/support/releases/server",
+        "url": "http://tableauwww.test/support/releases/server",
+        "referenceUrl": "http://tableauwww.test/support/releases/server",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1312
+            "height": -45
           },
-          "misMatchPercentage": "13.62",
-          "analysisTime": 964
+          "misMatchPercentage": "10.39",
+          "analysisTime": 1067
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_20203_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_20203_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_20203_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_20203_0_document_0_tablet_h.png",
         "label": "2020.3",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/releases/server/2020.3",
-        "referenceUrl": "https://www.tableau.com/support/releases/server/2020.3",
+        "url": "http://tableauwww.test/support/releases/server/2020.3",
+        "referenceUrl": "http://tableauwww.test/support/releases/server/2020.3",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -137
+            "height": -3428
           },
-          "misMatchPercentage": "9.31",
-          "analysisTime": 997
+          "misMatchPercentage": "9.91",
+          "analysisTime": 1327
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_20203_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_20203_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_renew_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_renew_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_renew_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_renew_0_document_0_tablet_h.png",
         "label": "renew",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/renew",
-        "referenceUrl": "https://www.tableau.com/support/renew",
+        "url": "http://tableauwww.test/support/renew",
+        "referenceUrl": "http://tableauwww.test/support/renew",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -204
+            "height": -174
           },
-          "misMatchPercentage": "21.20",
-          "analysisTime": 909
+          "misMatchPercentage": "19.31",
+          "analysisTime": 1138
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_renew_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_renew_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_server_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_server_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_server_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_server_0_document_0_tablet_h.png",
         "label": "server",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/server",
-        "referenceUrl": "https://www.tableau.com/support/server",
+        "url": "http://tableauwww.test/support/server",
+        "referenceUrl": "http://tableauwww.test/support/server",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -1312
+            "height": -45
           },
-          "misMatchPercentage": "13.62",
-          "analysisTime": 955
+          "misMatchPercentage": "10.39",
+          "analysisTime": 1071
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_server_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_server-upgrade_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_server-upgrade_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_server-upgrade_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_server-upgrade_0_document_0_tablet_h.png",
         "label": "server-upgrade",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/server-upgrade",
-        "referenceUrl": "https://www.tableau.com/support/server-upgrade",
+        "url": "http://tableauwww.test/support/server-upgrade",
+        "referenceUrl": "http://tableauwww.test/support/server-upgrade",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 2
+            "height": -233
           },
-          "misMatchPercentage": "9.24",
-          "analysisTime": 737
+          "misMatchPercentage": "11.04",
+          "analysisTime": 1249
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_server-upgrade_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_server-upgrade_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_services_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_services_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_services_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_services_0_document_0_tablet_h.png",
         "label": "services",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/services",
-        "referenceUrl": "https://www.tableau.com/support/services",
+        "url": "http://tableauwww.test/support/services",
+        "referenceUrl": "http://tableauwww.test/support/services",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -6120
+            "height": -6150
           },
-          "misMatchPercentage": "4.34",
-          "analysisTime": 868
+          "misMatchPercentage": "3.80",
+          "analysisTime": 1169
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_services_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_services_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_upgrade-assistance_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_upgrade-assistance_0__0_tablet_h.png",
-        "selector": "",
-        "fileName": "migration_regression_test_upgrade-assistance_0__0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_upgrade-assistance_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_upgrade-assistance_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_upgrade-assistance_0_document_0_tablet_h.png",
         "label": "upgrade-assistance",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/support/upgrade-assistance",
-        "referenceUrl": "https://www.tableau.com/support/upgrade-assistance",
+        "url": "http://tableauwww.test/support/upgrade-assistance",
+        "referenceUrl": "http://tableauwww.test/support/upgrade-assistance",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "engineErrorMsg": "Protocol error (Page.navigate): Target closed.",
-        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_upgrade-assistance_0__0_tablet_h.png"
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -79
+          },
+          "misMatchPercentage": "17.60",
+          "analysisTime": 1346
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_upgrade-assistance_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-for-executives_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_tableau-for-executives_0__0_tablet_h.png",
-        "selector": "",
-        "fileName": "migration_regression_test_tableau-for-executives_0__0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-for-executives_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_tableau-for-executives_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_tableau-for-executives_0_document_0_tablet_h.png",
         "label": "tableau-for-executives",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/tableau-for-executives",
-        "referenceUrl": "https://www.tableau.com/tableau-for-executives",
+        "url": "http://tableauwww.test/tableau-for-executives",
+        "referenceUrl": "http://tableauwww.test/tableau-for-executives",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "engineErrorMsg": "Protocol error (Page.navigate): Target closed.",
-        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_tableau-for-executives_0__0_tablet_h.png"
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -29
+          },
+          "misMatchPercentage": "10.38",
+          "analysisTime": 1281
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_tableau-for-executives_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-salesforce-analytics_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_tableau-salesforce-analytics_0__0_tablet_h.png",
-        "selector": "",
-        "fileName": "migration_regression_test_tableau-salesforce-analytics_0__0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-salesforce-analytics_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_tableau-salesforce-analytics_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_tableau-salesforce-analytics_0_document_0_tablet_h.png",
         "label": "tableau-salesforce-analytics",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/tableau-salesforce-analytics",
-        "referenceUrl": "https://www.tableau.com/tableau-salesforce-analytics",
+        "url": "http://tableauwww.test/tableau-salesforce-analytics",
+        "referenceUrl": "http://tableauwww.test/tableau-salesforce-analytics",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "engineErrorMsg": "Protocol error (Page.navigate): Target closed.",
-        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_tableau-salesforce-analytics_0__0_tablet_h.png"
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1
+          },
+          "misMatchPercentage": "0.12",
+          "analysisTime": 1100
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_tableau-salesforce-analytics_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-technology-partners_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_tableau-technology-partners_0__0_tablet_h.png",
-        "selector": "",
-        "fileName": "migration_regression_test_tableau-technology-partners_0__0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-technology-partners_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_tableau-technology-partners_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_tableau-technology-partners_0_document_0_tablet_h.png",
         "label": "tableau-technology-partners",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/tableau-technology-partners",
-        "referenceUrl": "https://www.tableau.com/tableau-technology-partners",
+        "url": "http://tableauwww.test/tableau-technology-partners",
+        "referenceUrl": "http://tableauwww.test/tableau-technology-partners",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "engineErrorMsg": "Protocol error (Page.navigate): Target closed.",
-        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_tableau-technology-partners_0__0_tablet_h.png"
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1
+          },
+          "misMatchPercentage": "0.35",
+          "analysisTime": 985
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_tableau-technology-partners_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-virtual-event-code-conduct_0__0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_tableau-virtual-event-code-conduct_0__0_tablet_h.png",
-        "selector": "",
-        "fileName": "migration_regression_test_tableau-virtual-event-code-conduct_0__0_tablet_h.png",
+        "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tableau-virtual-event-code-conduct_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_tableau-virtual-event-code-conduct_0_document_0_tablet_h.png",
+        "selector": "document",
+        "fileName": "migration_regression_test_tableau-virtual-event-code-conduct_0_document_0_tablet_h.png",
         "label": "tableau-virtual-event-code-conduct",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/tableau-virtual-event-code-conduct",
-        "referenceUrl": "https://www.tableau.com/tableau-virtual-event-code-conduct",
+        "url": "http://tableauwww.test/tableau-virtual-event-code-conduct",
+        "referenceUrl": "http://tableauwww.test/tableau-virtual-event-code-conduct",
         "expect": 0,
         "viewportLabel": "tablet_h",
-        "engineErrorMsg": "Protocol error (Page.navigate): Target closed.",
-        "error": "Reference file not found /Users/ldoherty/_Server/tableau_visual_regression/backstop_data/bitmaps_reference/migration_regression/migration_regression_test_tableau-virtual-event-code-conduct_0__0_tablet_h.png"
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 1
+          },
+          "misMatchPercentage": "0.14",
+          "analysisTime": 569
+        },
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_tableau-virtual-event-code-conduct_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_tos_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_tos_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_tos_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_tos_0_document_0_tablet_h.png",
         "label": "tos",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/tos",
-        "referenceUrl": "https://www.tableau.com/tos",
+        "url": "http://tableauwww.test/tos",
+        "referenceUrl": "http://tableauwww.test/tos",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -3064,22 +3072,22 @@ report({
             "height": -1
           },
           "misMatchPercentage": "0.04",
-          "analysisTime": 494
+          "analysisTime": 758
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_tos_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_tos_0_document_0_tablet_h.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/migration_regression/migration_regression_test_zen-masters_0_document_0_tablet_h.png",
-        "test": "../../bitmaps_test/migration_regression/20200826-193719/migration_regression_test_zen-masters_0_document_0_tablet_h.png",
+        "test": "../../bitmaps_test/migration_regression/20200910-172146/migration_regression_test_zen-masters_0_document_0_tablet_h.png",
         "selector": "document",
         "fileName": "migration_regression_test_zen-masters_0_document_0_tablet_h.png",
         "label": "zen-masters",
         "misMatchThreshold": 1,
-        "url": "https://dev-tableau-www.pantheonsite.io/zen-masters",
-        "referenceUrl": "https://www.tableau.com/zen-masters",
+        "url": "http://tableauwww.test/zen-masters",
+        "referenceUrl": "http://tableauwww.test/zen-masters",
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
@@ -3089,9 +3097,9 @@ report({
             "height": 1
           },
           "misMatchPercentage": "23.18",
-          "analysisTime": 1159
+          "analysisTime": 1713
         },
-        "diffImage": "../../bitmaps_test/migration_regression/20200826-193719/failed_diff_migration_regression_test_zen-masters_0_document_0_tablet_h.png"
+        "diffImage": "../../bitmaps_test/migration_regression/20200910-172146/failed_diff_migration_regression_test_zen-masters_0_document_0_tablet_h.png"
       },
       "status": "fail"
     }
