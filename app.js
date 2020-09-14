@@ -37,7 +37,7 @@ function makeUrlCommands(subCommands) {
 
   subCommands.forEach(subCommand => {
     root
-      .command(`${subCommand} <test-url> [reference-url]`)
+      .command(`${subCommand} <test-url> <reference-url>`)
       .option('-p, --project <id>', 'The project ID')
       .option('-l, --label <name>', 'The test label', '')
       .action(actions.url[subCommand])
