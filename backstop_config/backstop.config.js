@@ -5,10 +5,10 @@ module.exports = options => {
     viewports: options.viewport,
     scenarios: options.scenarios,
     paths: {
-      bitmaps_reference: 'backstop_data/bitmaps_reference/' + options.project,
-      bitmaps_test: 'backstop_data/bitmaps_test/' + options.project,
-      html_report: 'backstop_data/html_report/' + options.project,
-      ci_report: 'backstop_data/ci_report/' + options.project
+      bitmaps_reference: '../tableau_vr_data/bitmaps_reference/' + options.project,
+      bitmaps_test: '../tableau_vr_data/bitmaps_test/' + options.project,
+      html_report: '../tableau_vr_data/html_report/' + options.project,
+      ci_report: '../tableau_vr_data/ci_report/' + options.project
     },
     engine: 'puppeteer',
     engineOptions: {
