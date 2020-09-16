@@ -4,6 +4,7 @@ A node application running [BackstopJS](https://github.com/garris/BackstopJS).
 Installation and set up instructions follow. 
 Please referene the [User Manual](user-manual.md) for technical information and workflows.
 
+
 ## Installation ##
 1. Clone this repo in your usual favorite directory.
 2. I like to keep the data in a different directory These should sit side-by-side.
