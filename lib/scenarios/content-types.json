@@ -5,7 +5,7 @@
       ".global-footer"
     ],
     "hideSelectors": [
-      "[class^=\\'us–style-manager-1buttonIframe\\']"
+      "[class^='us–style-manager-1buttonIframe']"
     ]
   },
   "scenarios": [
