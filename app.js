@@ -19,7 +19,7 @@ function applyScenarioCommands (root, subCommands) {
   subCommands.forEach(subCommand => {
     root
       .command(`scenario:${subCommand} <scenario> [test-domain] [reference-domain]`)
-      .option('-p, --project <id>', 'The project ID. If set, gets "_test" appended.')
+      .option('-p, --project <id>', 'The project ID and directory name for results.')
       .action(actions.scenario[subCommand])
   })
 
@@ -36,7 +36,7 @@ function applyUrlCommands (root, subCommands) {
   subCommands.forEach(subCommand => {
     root
       .command(`url:${subCommand} <test-url> <reference-url>`)
-      .option('-p, --project <id>', 'The project ID. If set, gets "_test" appended.')
+      .option('-p, --project <id>', 'The project ID and directory name for results. Default is "single_regression')
       .option('-l, --label <name>', 'The label for the URL', '')
       .action(actions.url[subCommand])
   })
