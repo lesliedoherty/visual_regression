@@ -1,6 +1,10 @@
 # Tableau Visual Regression Testing
 A node application running [BackstopJS](https://github.com/garris/BackstopJS).
 
+Installation and set up instructions follow.
+
+Please see the [User Manual in Notion](https://www.notion.so/tableaumkt/User-Manual-BackstopJS-Tableau-Node-App-26c2f402f8144c598ecb5f49d2d36db6) for technical discussion and workflows.
+
 ## Installation ##
 1. Clone this repo in your usual favorite directory.
 2. Clone the [tableau_vr_data](https://github.com/tableau-mkt/tableau_vr_data) repo in the same directory. These should sit side-by-side.
