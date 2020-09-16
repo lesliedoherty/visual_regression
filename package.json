@@ -6,7 +6,8 @@
   "main": "app.js",
   "scripts": {
     "check": "jest",
-    "test": "node lib/generic.js --test",
+    "migration_ref": "node ./app.js scenario:reference migration --project migration https://dev-tableau-www.pantheonsite.io https://www.tableau.com",
+    "migration_test": "node ./app.js scenario:test migration --project migration https://dev-tableau-www.pantheonsite.io https://www.tableau.com",
     "tvg": "node ./app.js"
   },
   "keywords": [
