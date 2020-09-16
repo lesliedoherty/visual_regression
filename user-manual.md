@@ -1,4 +1,4 @@
-# User Manual BackstopJS Node App
+# User Manual BackstopJS Node App [WIP]
 
 Please [see the readme for set up instructions](README.md).
 
@@ -54,8 +54,8 @@ There are **two types of tests** and **four types of actions** that make up our 
 
 ## Commands
 
-```jsx
-**node ./app.js [command] [options] <test-url> <reference-url>**
+```bash
+node ./app.js [command] [options] <test-url> <reference-url>
 
 # Help
 Commands:
@@ -77,15 +77,15 @@ Options:
 
 ### Example (Basic):
 
-```jsx
+```bash
 # First create a reference for products page
-$ node ./app.js url:reference https://tableau.com/products https://dev-tableau-www.pantheonsite.io/products
+$ node ./app.js url:reference https://prod.com/products https://staging.com/products
 
 # Next test dev staging products page against prod products page
-$ node ./app.js url:test https://tableau.com/products https://dev-tableau-www.pantheonsite.io/products
+$ node ./app.js url:test https://prod.com/products https://staging.com/products
 ```
 
-The results are stored in the `tableau_vr_data` repo, which should be installed on the same level as `tableau_visual_regression`
+The results are stored in the `vr_data` repo, which should be installed on the same level as `visual_regression`
 
 ## **Options**
 
@@ -117,9 +117,9 @@ node ./app.js url:reference --project docs_product --label ProductPage https://t
 node ./app.js url:test --project docs_product --label ProductPage https://tableau.com/products https://dev-tableau-www.pantheonsite.io/products
 
 # Results will be in 
-# ../[tableau_vr_data/bitmaps_test/docs_product/](https://github.com/tableau-mkt/tableau_vr_data/tree/master/bitmaps_test/docs_product/20200914-114134)
-# ../[tableau_vr_data/ci_report/docs_product/](https://github.com/tableau-mkt/tableau_vr_data/tree/master/ci_report/docs_product)
-# ../[tableau_vr_data/html_report/docs_product/](https://github.com/tableau-mkt/tableau_vr_data/tree/master/html_report/docs_product)
+# ../vr_data/bitmaps_test/docs_product/timestamp
+# ../vr_data/ci_report/docs_product/
+# ../vr_data/html_report/docs_product/
 ```
 
 # Scenario
@@ -156,16 +156,16 @@ Optional:
 ```bash
 # Passing in the minimum arguments
 # First run, set a reference. This uses your VR_STAGING as a reference.
-node ./app.js scenario:reference paragraphs
+node ./app.js scenario:reference demo
 
 # Run a regression on VR_LOCAL against VR_STAGING
 node ./app.js scenario:test paragraphs
 
 # Results are stored in the default migration project_id
-bitmaps_reference: '../tableau_vr_data/bitmaps_reference/local_regression',
-bitmaps_test: '../tableau_vr_data/bitmaps_test/local_regression',
-html_report: '../tableau_vr_data/html_report/local_regression',
-ci_report: '../tableau_vr_data/ci_report/local_regression'
+bitmaps_reference: '../vr_data/bitmaps_reference/local_regression',
+bitmaps_test: '../vr_data/bitmaps_test/local_regression',
+html_report: '../vr_data/html_report/local_regression',
+ci_report: '../vr_data/ci_report/local_regression'
 
 ```
 
@@ -189,15 +189,15 @@ We only set the domain because URLs are specified in the `/lib/scenario/file.jso
 ```bash
 # A test referencing prod and testing dev for D8 with a custom project_id.
 # First set up the reference:
-node ./app.js scenario:reference demo --project docs_example_scenario https://dev-tableau-www.pantheonsite.io https://www.tableau.com
+node ./app.js scenario:reference demo --project docs_example_scenario https://test.env.com https://ref.env.com
 
 # Next, run the test:
-node ./app.js scenario:test demo --project docs_example_scenario https://dev-tableau-www.pantheonsite.io https://www.tableau.com
+node ./app.js scenario:test demo --project docs_example_scenario https://test.env.com https://ref.env.com
 
 # Results will be in 
-# ../t[ableau_vr_data/bitmaps_test/docs_example_scenario_regression](https://github.com/tableau-mkt/tableau_vr_data/tree/master/bitmaps_test/docs_example_scenario_regression/20200915-095837)/[date-time](https://github.com/tableau-mkt/tableau_vr_data/tree/master/bitmaps_test/docs_example_scenario_regression/20200915-095837)
-# ../[tableau_vr_data/ci_report/docs_example_scenario_regression](https://github.com/tableau-mkt/tableau_vr_data/tree/master/ci_report/docs_example_scenario_regression)
-# ../[tableau_vr_data/html_report/docs_example_scenario_regression](https://github.com/tableau-mkt/tableau_vr_data/tree/master/html_report/docs_example_scenario_regression)
+# ../vr_data/bitmaps_test/docs_example_scenario_regression/timestamp
+# ../vr_data/ci_report/docs_example_scenario_regression
+# ../vr_data/html_report/docs_example_scenario_regression
 ```
 
 # Technical Docs
@@ -236,7 +236,7 @@ This allows us to. use the same generic configuration for every test.
 
 We customize the `project id` based on a project id from scenario object.
 
-We customize the data paths to save our data (test images, reference images, reports) to the `tableau_vr_data` repo which is sitting at the same directory level as `tableau_visual_regression`.
+We customize the data paths to save our data (test images, reference images, reports) to the `vr_data` repo which is sitting at the same directory level as `visual_regression`.
 
 We pass in the `viewports` object which is defined in the same file in the `getViewports()` function.
 
