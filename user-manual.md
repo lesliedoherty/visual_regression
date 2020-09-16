@@ -1,7 +1,5 @@
 # User Manual BackstopJS Node App
 
-This is the start of documentation on using the backstopjs node app for tableau.
-
 Please [see the readme for set up instructions](README.md).
 
 These docs specify workflow and technical "how it works".
